@@ -1,4 +1,4 @@
-trojan://16d033f0-656d-11ed-9e05-1239d0255272@sgovh-trojan.bonds.id:443/?sni=
+trojan://16d033f0-656d-11ed-9e05-1239d0255272@sgovh-trojan.bonds.id:443/?sni=#sshocean-1117_trojan
 trojan://26064c50-656d-11ed-98ea-1239d0255272@ca-trojan.bonds.id:443/?sni=
 trojan://30ef7500-656d-11ed-83e2-1239d0255272@us-trojan.bonds.id:443/?sni=
 trojan://3c5e4780-656d-11ed-92d4-1239d0255272@sg6-trojan.bonds.id:443/?sni=
