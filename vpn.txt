@@ -1,3 +1,4 @@
+trojan://c1305740-6705-11ed-aa6a-1239d0255272@th1-trojan.bonds.id:443/?sni=#moein1118
 trojan://f1f73b30-6703-11ed-bf84-1239d0255272@us-trojan.bonds.id:443/?sni=#moein1118
 trojan://fca135c0-6703-11ed-baf3-1239d0255272@sg-atha.bonds.id:443/?sni=#moein1118
 trojan://05757a00-6704-11ed-b72a-1239d0255272@ca-trojan.bonds.id:443/?sni=#moein1118
