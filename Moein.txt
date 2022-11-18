@@ -1,3 +1,11 @@
+trojan://3c5e4780-656d-11ed-92d4-1239d0255272@sg6-trojan.bonds.id:443?security=tls&type=tcp&headerType=none#moein1116
+trojan://869d3d40-656d-11ed-b8d0-1239d0255272@sg1-trojan.bonds.id:443?security=tls&type=tcp&headerType=none#moein1116
+trojan://7c4c1fe0-6645-11ed-a340-1239d0255272@sg2-trojan.bonds.id:443?security=tls&type=tcp&headerType=none#moein1117
+trojan://507c5400-6645-11ed-aa3e-1239d0255272@th1-trojan.bonds.id:443?security=tls&type=tcp&headerType=none#moein1117
+trojan://5ddc4dd0-6704-11ed-b075-1239d0255272@vn-trojan.bonds.id:443?security=tls&type=tcp&headerType=none#moein1118
+trojan://c1305740-6705-11ed-aa6a-1239d0255272@th1-trojan.bonds.id:443?security=tls&type=tcp&headerType=none#moein1118
+trojan://488eee40-6704-11ed-bc07-1239d0255272@sg6-trojan.bonds.id:443?security=tls&type=tcp&headerType=none#moein1118
+trojan://2d0dfe80-6645-11ed-875d-1239d0255272@sg6-trojan.bonds.id:443?security=tls&type=tcp&headerType=none#moein1117
 trojan://5047d26f-837c-4c36-afd4-c44699e810bc@idt1.sshocean.net:443?security=tls&sni=idt1.sshocean.net&type=tcp&headerType=none#sshocean-1116_trojan
 trojan://2222720c-9407-4ec7-8a38-5ca5ded386c6@ust1.sshocean.net:443?security=tls&sni=ust1.sshocean.net&type=tcp&headerType=none#sshocean-1117_trojan
 trojan://5ddc4dd0-6704-11ed-b075-1239d0255272@vn-trojan.bonds.id:443?security=tls&type=tcp&headerType=none#moein1118
