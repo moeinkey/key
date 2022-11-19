@@ -1,9 +1,9 @@
 #
 #-------------------------------------------------------------#
 #  创建者：https://v2rayse.com
-#  创建时间：2022-11-18 21:19:56
+#  创建时间：2022-11-19 14:11:35
 #  模版：v2rayse默认模版
-#  节点数量：106
+#  节点数量：79
 #-------------------------------------------------------------#
 #
 port: 7890
@@ -13,781 +13,592 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"type":"trojan","name":"sshocean-1116_trojan_1","server":"idt1.sshocean.net","port":443,"password":"5047d26f-837c-4c36-afd4-c44699e810bc","udp":true,"skip-cert-verify":true,"sni":"idt1.sshocean.net"}
-  - {"type":"trojan","name":"sshocean-1117_trojan_1","server":"ust1.sshocean.net","port":443,"password":"2222720c-9407-4ec7-8a38-5ca5ded386c6","udp":true,"skip-cert-verify":true,"sni":"ust1.sshocean.net"}
-  - {"type":"trojan","name":"moein1118_1","server":"vn-trojan.bonds.id","port":443,"password":"5ddc4dd0-6704-11ed-b075-1239d0255272","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"moein1117_1","server":"sgovh-trojan.bonds.id","port":443,"password":"23c68de0-6646-11ed-a3b6-1239d0255272","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"moein1118_2","server":"fr-trojan.bonds.id","port":443,"password":"525885e0-6704-11ed-9689-1239d0255272","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"moein1117_2","server":"fr-trojan.bonds.id","port":443,"password":"92425150-6645-11ed-abdb-1239d0255272","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"moein1116_1","server":"th1-trojan.bonds.id","port":443,"password":"c20741d0-656d-11ed-a0a3-1239d0255272","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"moein1118_3","server":"sg6-trojan.bonds.id","port":443,"password":"2e5d4c90-6704-11ed-a2cf-1239d0255272","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"moein1117_3","server":"us-trojan.bonds.id","port":443,"password":"04889280-6646-11ed-8eae-1239d0255272","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"moein1117_4","server":"sg6-trojan.bonds.id","port":443,"password":"3c394060-6645-11ed-a322-1239d0255272","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"moein1118_4","server":"th1-trojan.bonds.id","port":443,"password":"c1305740-6705-11ed-aa6a-1239d0255272","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"moein1119_1","server":"us-trojan.bonds.id","port":443,"password":"211dafe0-67d8-11ed-84d8-1239d0255272","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"moein1117_1","server":"us-trojan.bonds.id","port":443,"password":"04889280-6646-11ed-8eae-1239d0255272","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"moein1117_2","server":"sg1-trojan.bonds.id","port":443,"password":"d21ae180-6645-11ed-a16c-1239d0255272","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"moein1116_1","server":"sg-atha.bonds.id","port":443,"password":"7cb86ce0-656d-11ed-b251-1239d0255272","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"moein1117_3","server":"vn-trojan.bonds.id","port":443,"password":"eec869a0-6644-11ed-9714-1239d0255272","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"moein1118_1","server":"sg2-trojan.bonds.id","port":443,"password":"3844a350-6704-11ed-8296-1239d0255272","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"moein1118_2","server":"vn-trojan.bonds.id","port":443,"password":"5ddc4dd0-6704-11ed-b075-1239d0255272","udp":true,"skip-cert-verify":true}
   - {"type":"trojan","name":"moein1116_2","server":"idtj-ikd.bonds.id","port":443,"password":"457bc710-656d-11ed-8b3d-1239d0255272","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"moein1117_5","server":"nl-trojan.bonds.id","port":443,"password":"1e0f5430-6645-11ed-aa35-1239d0255272","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"moein1116_3","server":"sg1-trojan.bonds.id","port":443,"password":"869d3d40-656d-11ed-b8d0-1239d0255272","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"moein1118_5","server":"nl-trojan.bonds.id","port":443,"password":"81f60d30-6704-11ed-a173-1239d0255272","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"moein1116_4","server":"sg-atha.bonds.id","port":443,"password":"7cb86ce0-656d-11ed-b251-1239d0255272","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"moein1117_6","server":"sg2-trojan.bonds.id","port":443,"password":"7c4c1fe0-6645-11ed-a340-1239d0255272","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"sshocean-1117_trojan_2","server":"ukt1.sshocean.net","port":443,"password":"994ffd5b-bd20-42ef-b1cf-d8471273ad7c","udp":true,"skip-cert-verify":true,"sni":"ukt1.sshocean.net"}
-  - {"type":"trojan","name":"moein1118_6","server":"sg6-trojan.bonds.id","port":443,"password":"488eee40-6704-11ed-bc07-1239d0255272","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"moein1117_7","server":"sgovh-trojan.bonds.id","port":443,"password":"c5678640-6645-11ed-b880-1239d0255272","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"moein1116_5","server":"sg6-trojan.bonds.id","port":443,"password":"3c5e4780-656d-11ed-92d4-1239d0255272","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"moein1116_6","server":"sgovh-trojan.bonds.id","port":443,"password":"5a6a3810-656d-11ed-924c-1239d0255272","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"sshocean-1117_trojan_3","server":"idt2.sshocean.net","port":443,"password":"ae45552d-20cd-4057-b4ce-4a342acc4fc0","udp":true,"skip-cert-verify":true,"sni":"idt2.sshocean.net"}
-  - {"type":"trojan","name":"moein1118_7","server":"sg2-trojan.bonds.id","port":443,"password":"3844a350-6704-11ed-8296-1239d0255272","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"moein1117_8","server":"br1-trojan.bonds.id","port":443,"password":"ded04000-6645-11ed-ac09-1239d0255272","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"moein1117_9","server":"sg6-trojan.bonds.id","port":443,"password":"2d0dfe80-6645-11ed-875d-1239d0255272","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"sshocean-1116_trojan_2","server":"ust1.sshocean.net","port":443,"password":"89cbf064-e3b4-43ae-8c16-254885453a4a","udp":true,"skip-cert-verify":true,"sni":"ust1.sshocean.net"}
-  - {"type":"trojan","name":"moein1117_10","server":"th1-trojan.bonds.id","port":443,"password":"507c5400-6645-11ed-aa3e-1239d0255272","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"moein1118_8","server":"br1-trojan.bonds.id","port":443,"password":"8eda8500-6704-11ed-b9ae-1239d0255272","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"moein1117_11","server":"sg8-trojan.bonds.id","port":443,"password":"0d90f080-6645-11ed-bc5a-1239d0255272","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"moein1118_9","server":"sg8-trojan.bonds.id","port":443,"password":"40e9f580-6704-11ed-9750-1239d0255272","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"moein1117_12","server":"sg1-trojan.bonds.id","port":443,"password":"d21ae180-6645-11ed-a16c-1239d0255272","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"moein1116_7","server":"us-trojan.bonds.id","port":443,"password":"30ef7500-656d-11ed-83e2-1239d0255272","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"sshocean-1116_trojan_3","server":"idt2.sshocean.net","port":443,"password":"47cba90e-16af-4897-9db4-9246b4fe8aa3","udp":true,"skip-cert-verify":true,"sni":"idt2.sshocean.net"}
-  - {"type":"trojan","name":"moein1116_8","server":"sgovh-trojan.bonds.id","port":443,"password":"16d033f0-656d-11ed-9e05-1239d0255272","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"moein1116_9","server":"sg8-trojan.bonds.id","port":443,"password":"a6fb2d40-656d-11ed-bb29-1239d0255272","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"moein1116_10","server":"nl-trojan.bonds.id","port":443,"password":"68191420-656d-11ed-83fb-1239d0255272","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"moein1117_4","server":"vn-trojan.bonds.id","port":443,"password":"eec869a0-6644-11ed-9714-1239d0255272","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"moein1117_5","server":"sgovh-trojan.bonds.id","port":443,"password":"c5678640-6645-11ed-b880-1239d0255272","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"moein1118_3","server":"vn-trojan.bonds.id","port":443,"password":"5ddc4dd0-6704-11ed-b075-1239d0255272","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"moein1117_6","server":"th1-trojan.bonds.id","port":443,"password":"507c5400-6645-11ed-aa3e-1239d0255272","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"moein1118_4","server":"vn-trojan.bonds.id","port":443,"password":"5ddc4dd0-6704-11ed-b075-1239d0255272","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"moein1118_5","server":"sg-atha.bonds.id","port":443,"password":"fca135c0-6703-11ed-baf3-1239d0255272","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"moein1117_7","server":"sg6-trojan.bonds.id","port":443,"password":"2d0dfe80-6645-11ed-875d-1239d0255272","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"moein1116_3","server":"th1-trojan.bonds.id","port":443,"password":"c20741d0-656d-11ed-a0a3-1239d0255272","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"moein1119_2","server":"sg-atha.bonds.id","port":443,"password":"07dde0a0-67d8-11ed-a03a-1239d0255272","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"moein1118_6","server":"th1-trojan.bonds.id","port":443,"password":"c1305740-6705-11ed-aa6a-1239d0255272","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"moein1116_4","server":"vn-trojan.bonds.id","port":443,"password":"d4465af0-656d-11ed-ae79-1239d0255272","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"moein1117_8","server":"us-trojan.bonds.id","port":443,"password":"04889280-6646-11ed-8eae-1239d0255272","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"moein1116_5","server":"us-trojan.bonds.id","port":443,"password":"30ef7500-656d-11ed-83e2-1239d0255272","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"moein1119_3","server":"vn-trojan.bonds.id","port":443,"password":"d60b4000-67d7-11ed-a0a7-1239d0255272","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"moein1117_9","server":"br1-trojan.bonds.id","port":443,"password":"ded04000-6645-11ed-ac09-1239d0255272","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"moein1118_7","server":"th1-trojan.bonds.id","port":443,"password":"c1305740-6705-11ed-aa6a-1239d0255272","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"moein1118_8","server":"us-trojan.bonds.id","port":443,"password":"f1f73b30-6703-11ed-bf84-1239d0255272","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"moein1117_10","server":"sg2-trojan.bonds.id","port":443,"password":"7c4c1fe0-6645-11ed-a340-1239d0255272","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"moein1117_11","server":"th1-trojan.bonds.id","port":443,"password":"507c5400-6645-11ed-aa3e-1239d0255272","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"sshocean-1119m_trojan_1","server":"idt1.sshocean.net","port":443,"password":"7c71aaff-1fb5-4df2-a68e-f234743be049","udp":true,"skip-cert-verify":true,"sni":"idt1.sshocean.net"}
+  - {"type":"trojan","name":"moein1117_12","server":"sg8-trojan.bonds.id","port":443,"password":"0d90f080-6645-11ed-bc5a-1239d0255272","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"moein1117_13","server":"th1-trojan.bonds.id","port":443,"password":"507c5400-6645-11ed-aa3e-1239d0255272","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"moein1119_4","server":"br1-trojan.bonds.id","port":443,"password":"858d3ce0-67d7-11ed-8aba-1239d0255272","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"moein1118_9","server":"th1-trojan.bonds.id","port":443,"password":"c1305740-6705-11ed-aa6a-1239d0255272","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"sshocean-1119m_trojan_2","server":"idt2.sshocean.net","port":443,"password":"f1857794-b328-4285-85b2-56d6b1a56b96","udp":true,"skip-cert-verify":true,"sni":"idt2.sshocean.net"}
+  - {"type":"trojan","name":"moein1119_5","server":"th1-trojan.bonds.id","port":443,"password":"97c36200-67d7-11ed-be3b-1239d0255272","udp":true,"skip-cert-verify":true}
   - {"type":"trojan","name":"moein1118_10","server":"sg1-trojan.bonds.id","port":443,"password":"1e720360-6704-11ed-a541-1239d0255272","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"sshocean-1115_trojan_1","server":"ust1.sshocean.net","port":443,"password":"0b6d9641-bb0c-48c4-8c1a-4f27b87a9be9","udp":true,"skip-cert-verify":true,"sni":"ust1.sshocean.net"}
-  - {"type":"trojan","name":"moein1117_13","server":"vn-trojan.bonds.id","port":443,"password":"eec869a0-6644-11ed-9714-1239d0255272","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"sshocean-1116_trojan_4","server":"ukt1.sshocean.net","port":443,"password":"e316ef5b-b4e8-4b07-bbe0-71cba0aeca0b","udp":true,"skip-cert-verify":true,"sni":"ukt1.sshocean.net"}
-  - {"type":"trojan","name":"moein1116_11","server":"fr-trojan.bonds.id","port":443,"password":"4ed86160-656d-11ed-ac43-1239d0255272","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"moein1117_14","server":"sg-atha.bonds.id","port":443,"password":"abdb11a0-6645-11ed-8e7f-1239d0255272","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"moein1116_12","server":"sg2-trojan.bonds.id","port":443,"password":"98715390-656d-11ed-a26f-1239d0255272","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"moein1116_13","server":"vn-trojan.bonds.id","port":443,"password":"d4465af0-656d-11ed-ae79-1239d0255272","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"moein1117_15","server":"idtj-ikd.bonds.id","port":443,"password":"6ccaaf60-6645-11ed-8537-1239d0255272","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"moein1118_11","server":"us-trojan.bonds.id","port":443,"password":"f1f73b30-6703-11ed-bf84-1239d0255272","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"moein1116_14","server":"sg6-trojan.bonds.id","port":443,"password":"72a1e900-656d-11ed-a04a-1239d0255272","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"sshocean-1115_trojan_2","server":"ukt1.sshocean.net","port":443,"password":"48d8c50e-ac7e-47d3-ad2a-b3255022407e","udp":true,"skip-cert-verify":true,"sni":"ukt1.sshocean.net"}
-  - {"type":"trojan","name":"moein1118_12","server":"idtj-ikd.bonds.id","port":443,"password":"25daf570-6704-11ed-87f3-1239d0255272","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"moein1116_15","server":"ca-trojan.bonds.id","port":443,"password":"26064c50-656d-11ed-98ea-1239d0255272","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"moein1117_16","server":"ca-trojan.bonds.id","port":443,"password":"9e764830-6645-11ed-8838-1239d0255272","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"moein1118_13","server":"sg-atha.bonds.id","port":443,"password":"fca135c0-6703-11ed-baf3-1239d0255272","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"moein1118_14","server":"ca-trojan.bonds.id","port":443,"password":"05757a00-6704-11ed-b72a-1239d0255272","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"moein1118_15","server":"sgovh-trojan.bonds.id","port":443,"password":"0e3d6f60-6704-11ed-8218-1239d0255272","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"moein1118_16","server":"sgovh-trojan.bonds.id","port":443,"password":"167bffc0-6704-11ed-9b0e-1239d0255272","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"sshocean-1115_trojan_3","server":"frt1.sshocean.net","port":443,"password":"99c0b86e-6807-402d-8464-c62e060caaf0","udp":true,"skip-cert-verify":true,"sni":"frt1.sshocean.net"}
-  - {"type":"trojan","name":"sshocean-1115_trojan_4","server":"ust2.sshocean.net","port":443,"password":"93b58113-a02f-4a86-bf3d-694525e090bd","udp":true,"skip-cert-verify":true,"sni":"ust2.sshocean.net"}
-  - {"type":"trojan","name":"sshocean-1115_trojan_5","server":"cat2.sshocean.net","port":443,"password":"56ac9261-fc09-43c2-968e-395638e23139","udp":true,"skip-cert-verify":true,"sni":"cat2.sshocean.net"}
-  - {"type":"trojan","name":"sshocean-1115_trojan_6","server":"ust3.sshocean.net","port":443,"password":"c8d30a65-fe93-44f4-8fe8-e8f6af4195d4","udp":true,"skip-cert-verify":true,"sni":"ust3.sshocean.net"}
-  - {"type":"trojan","name":"sshocean-1115_trojan_7","server":"aut1.sshocean.net","port":443,"password":"cebad768-d16e-4640-833c-108f0d5ec051","udp":true,"skip-cert-verify":true,"sni":"aut1.sshocean.net"}
-  - {"type":"trojan","name":"sshocean-1115_trojan_8","server":"ukt3.sshocean.net","port":443,"password":"349bda0e-badf-49c6-9de4-2ee127f20887","udp":true,"skip-cert-verify":true,"sni":"ukt3.sshocean.net"}
-  - {"type":"trojan","name":"sshocean-1115_trojan_9","server":"ltt1.sshocean.net","port":443,"password":"f0fbc215-7144-42f1-bb85-731d1c2fdc0f","udp":true,"skip-cert-verify":true,"sni":"ltt1.sshocean.net"}
-  - {"type":"trojan","name":"sshocean-1115_trojan_10","server":"ltt1.sshocean.net","port":443,"password":"f0fbc215-7144-42f1-bb85-731d1c2fdc0f","udp":true,"skip-cert-verify":true,"sni":"ltt1.sshocean.net"}
-  - {"type":"trojan","name":"sshocean-1115_trojan_11","server":"cat1.sshocean.net","port":443,"password":"eb7ba07f-ce25-4d92-aa24-c583ef6a43e3","udp":true,"skip-cert-verify":true,"sni":"cat1.sshocean.net"}
-  - {"type":"trojan","name":"sshocean-1115_trojan_12","server":"ukt2.sshocean.net","port":443,"password":"a68b8c43-19e8-4116-876e-29ca65283d93","udp":true,"skip-cert-verify":true,"sni":"ukt2.sshocean.net"}
-  - {"type":"trojan","name":"sshocean-1115_trojan_13","server":"idt3.sshocean.net","port":443,"password":"9f719f13-5a7c-44b4-946e-e76811eedcb7","udp":true,"skip-cert-verify":true,"sni":"idt3.sshocean.net"}
-  - {"type":"trojan","name":"sshocean-1115_trojan_14","server":"frt2.sshocean.net","port":443,"password":"1ec913f9-02e2-456a-b082-746fec4f37cd","udp":true,"skip-cert-verify":true,"sni":"frt2.sshocean.net"}
-  - {"type":"trojan","name":"sshocean-1116_trojan_5","server":"ust3.sshocean.net","port":443,"password":"70806e97-a539-41a7-a700-c49a6216a4cf","udp":true,"skip-cert-verify":true,"sni":"ust3.sshocean.net"}
-  - {"type":"trojan","name":"sshocean-1116_trojan_6","server":"ust2.sshocean.net","port":443,"password":"f8c95cff-0127-4070-baf5-2bc61c1b5e9b","udp":true,"skip-cert-verify":true,"sni":"ust2.sshocean.net"}
-  - {"type":"trojan","name":"sshocean-1116_trojan_7","server":"ukt3.sshocean.net","port":443,"password":"8f9ded2e-440f-4e42-904a-38a3111cdf1f","udp":true,"skip-cert-verify":true,"sni":"ukt3.sshocean.net"}
-  - {"type":"trojan","name":"sshocean-1116_trojan_8","server":"ukt2.sshocean.net","port":443,"password":"91e14e14-08aa-4f0b-a969-5175a1001d8d","udp":true,"skip-cert-verify":true,"sni":"ukt2.sshocean.net"}
-  - {"type":"trojan","name":"sshocean-1116_trojan_9","server":"sgt4.sshocean.net","port":443,"password":"7fad36d6-fe76-4d9f-bed1-4070a31899b5","udp":true,"skip-cert-verify":true,"sni":"sgt4.sshocean.net"}
-  - {"type":"trojan","name":"sshocean-1116_trojan_10","server":"sgt5.sshocean.net","port":443,"password":"4781c797-84a5-477a-97bb-c9c2ac875787","udp":true,"skip-cert-verify":true,"sni":"sgt5.sshocean.net"}
-  - {"type":"trojan","name":"sshocean-1116_trojan_11","server":"sgt3.sshocean.net","port":443,"password":"4d3bbb71-ae9f-4103-a01a-491509cc8748","udp":true,"skip-cert-verify":true,"sni":"sgt3.sshocean.net"}
-  - {"type":"trojan","name":"sshocean-1116_trojan_12","server":"sgt2.sshocean.net","port":443,"password":"5bf7c01a-d46c-4d80-92bd-d7c9dd02ebb1","udp":true,"skip-cert-verify":true,"sni":"sgt2.sshocean.net"}
-  - {"type":"trojan","name":"sshocean-1116_trojan_13","server":"sgt1.sshocean.net","port":443,"password":"856ffc7d-4953-42b6-8bd2-d46cad674b1f","udp":true,"skip-cert-verify":true,"sni":"sgt1.sshocean.net"}
-  - {"type":"trojan","name":"sshocean-1116_trojan_14","server":"ltt1.sshocean.net","port":443,"password":"258580d0-0e5f-4f08-8b95-daac5f1dfb34","udp":true,"skip-cert-verify":true,"sni":"ltt1.sshocean.net"}
-  - {"type":"trojan","name":"sshocean-1116_trojan_15","server":"idt3.sshocean.net","port":443,"password":"1f378610-fc7b-4e37-85a6-cdb5bdf78fd2","udp":true,"skip-cert-verify":true,"sni":"idt3.sshocean.net"}
-  - {"type":"trojan","name":"sshocean-1116_trojan_16","server":"det1.sshocean.net","port":443,"password":"b8329a65-65cc-433a-83e3-0b83f16dc1a4","udp":true,"skip-cert-verify":true,"sni":"det1.sshocean.net"}
-  - {"type":"trojan","name":"sshocean-1116_trojan_17","server":"frt2.sshocean.net","port":443,"password":"257ee381-3b36-4445-8274-056f1383f3e0","udp":true,"skip-cert-verify":true,"sni":"frt2.sshocean.net"}
-  - {"type":"trojan","name":"sshocean-1116_trojan_18","server":"frt1.sshocean.net","port":443,"password":"8c0cd0c8-43fd-45b2-9df6-2a8d863fe378","udp":true,"skip-cert-verify":true,"sni":"frt1.sshocean.net"}
-  - {"type":"trojan","name":"sshocean-1116_trojan_19","server":"cat2.sshocean.net","port":443,"password":"f75cafc9-2f50-40e8-b9e9-50587c40d6aa","udp":true,"skip-cert-verify":true,"sni":"cat2.sshocean.net"}
-  - {"type":"trojan","name":"sshocean-1116_trojan_20","server":"cat1.sshocean.net","port":443,"password":"60602226-a7cf-44a5-9724-7c015ba56965","udp":true,"skip-cert-verify":true,"sni":"cat1.sshocean.net"}
-  - {"type":"trojan","name":"sshocean-1116_trojan_21","server":"aut1.sshocean.net","port":443,"password":"fe100e71-1dcf-48d7-90ea-5809db9ce6cf","udp":true,"skip-cert-verify":true,"sni":"aut1.sshocean.net"}
-  - {"type":"trojan","name":"sshocean-1117_trojan_4","server":"ust3.sshocean.net","port":443,"password":"edf7402a-7cd5-4608-a702-fcb97d1048d4","udp":true,"skip-cert-verify":true,"sni":"ust3.sshocean.net"}
-  - {"type":"trojan","name":"sshocean-1117_trojan_5","server":"ust3.sshocean.net","port":443,"password":"edf7402a-7cd5-4608-a702-fcb97d1048d4","udp":true,"skip-cert-verify":true,"sni":"ust3.sshocean.net"}
-  - {"type":"trojan","name":"sshocean-1117_trojan_6","server":"ust3.sshocean.net","port":443,"password":"edf7402a-7cd5-4608-a702-fcb97d1048d4","udp":true,"skip-cert-verify":true,"sni":"ust3.sshocean.net"}
-  - {"type":"trojan","name":"sshocean-1117_trojan_7","server":"ukt2.sshocean.net","port":443,"password":"f8a0c0e3-c254-45b0-ba53-7cf12689fc33","udp":true,"skip-cert-verify":true,"sni":"ukt2.sshocean.net"}
-  - {"type":"trojan","name":"sshocean-1117_trojan_8","server":"sgt3.sshocean.net","port":443,"password":"6c662f62-4ab6-4cdd-b73e-0e2a257c67bc","udp":true,"skip-cert-verify":true,"sni":"sgt3.sshocean.net"}
-  - {"type":"trojan","name":"sshocean-1117_trojan_9","server":"idt3.sshocean.net","port":443,"password":"429950a2-47c2-4f8e-8031-485f37ef5d16","udp":true,"skip-cert-verify":true,"sni":"idt3.sshocean.net"}
-  - {"type":"trojan","name":"sshocean-1117_trojan_10","server":"sgt2.sshocean.net","port":443,"password":"a3c6899d-6656-4a8e-ba36-aa56551b2eb9","udp":true,"skip-cert-verify":true,"sni":"sgt2.sshocean.net"}
-  - {"type":"trojan","name":"sshocean-1117_trojan_11","server":"sgt1.sshocean.net","port":443,"password":"3aaccdd4-ad82-46ef-b520-00080dc3e1c2","udp":true,"skip-cert-verify":true,"sni":"sgt1.sshocean.net"}
-  - {"type":"trojan","name":"sshocean-1117_trojan_12","server":"sgt4.sshocean.net","port":443,"password":"167c1fec-af0f-4b1f-8369-ea0ac8b002ef","udp":true,"skip-cert-verify":true,"sni":"sgt4.sshocean.net"}
-  - {"type":"trojan","name":"sshocean-1117_trojan_13","server":"sgt5.sshocean.net","port":443,"password":"3774d6e7-6ec2-4c30-a926-c683e222be11","udp":true,"skip-cert-verify":true,"sni":"sgt5.sshocean.net"}
-  - {"type":"trojan","name":"sshocean-1117_trojan_14","server":"frt1.sshocean.net","port":443,"password":"661b2b19-48d7-4850-af61-cfb88719b2ea","udp":true,"skip-cert-verify":true,"sni":"frt1.sshocean.net"}
-  - {"type":"trojan","name":"sshocean-1117_trojan_15","server":"det1.sshocean.net","port":443,"password":"bc6697c2-7749-4ad1-8cb5-50f47c6a3bd7","udp":true,"skip-cert-verify":true,"sni":"det1.sshocean.net"}
-  - {"type":"trojan","name":"sshocean-1117_trojan_16","server":"frt2.sshocean.net","port":443,"password":"7d1c513f-8909-49f5-8eaa-06f61a61f24c","udp":true,"skip-cert-verify":true,"sni":"frt2.sshocean.net"}
-  - {"type":"trojan","name":"sshocean-1117_trojan_17","server":"aut1.sshocean.net","port":443,"password":"761de2ba-7a08-4171-bfb8-360a798ab191","udp":true,"skip-cert-verify":true,"sni":"aut1.sshocean.net"}
-  - {"type":"trojan","name":"sshocean-1117_trojan_18","server":"cat2.sshocean.net","port":443,"password":"d4488722-acb4-4dd5-8341-03dd80a8302f","udp":true,"skip-cert-verify":true,"sni":"cat2.sshocean.net"}
-  - {"type":"trojan","name":"sshocean-1117_trojan_19","server":"cat1.sshocean.net","port":443,"password":"60a9276d-8c87-4c0e-a3e7-e84138dc869d","udp":true,"skip-cert-verify":true,"sni":"cat1.sshocean.net"}
-  - {"type":"trojan","name":"moein1116_16","server":"br1-trojan.bonds.id","port":443,"password":"b50ec240-656d-11ed-8bea-1239d0255272","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"sshocean-1115_trojan_15","server":"fit1.sshocean.net","port":443,"password":"bd516b66-586b-4c6d-9329-c7adab949ba0","udp":true,"skip-cert-verify":true,"sni":"fit1.sshocean.net"}
-  - {"type":"trojan","name":"sshocean-1116_trojan_22","server":"fit1.sshocean.net","port":443,"password":"55ac6a94-55cd-46fd-b7ea-1e1e28e91644","udp":true,"skip-cert-verify":true,"sni":"fit1.sshocean.net"}
-  - {"type":"trojan","name":"sshocean-1117_trojan_20","server":"ltt1.sshocean.net","port":443,"password":"f561f0a1-41d5-4801-87e1-91ba325eeb8a","udp":true,"skip-cert-verify":true,"sni":"ltt1.sshocean.net"}
-  - {"type":"trojan","name":"sshocean-1117_trojan_21","server":"fit1.sshocean.net","port":443,"password":"5c34df80-0186-4276-8807-016d876d7dc5","udp":true,"skip-cert-verify":true,"sni":"fit1.sshocean.net"}
+  - {"type":"trojan","name":"moein1118_11","server":"idtj-ikd.bonds.id","port":443,"password":"25daf570-6704-11ed-87f3-1239d0255272","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"moein1117_14","server":"sgovh-trojan.bonds.id","port":443,"password":"23c68de0-6646-11ed-a3b6-1239d0255272","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"moein1118_12","server":"sg6-trojan.bonds.id","port":443,"password":"488eee40-6704-11ed-bc07-1239d0255272","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"moein1116_6","server":"sg1-trojan.bonds.id","port":443,"password":"869d3d40-656d-11ed-b8d0-1239d0255272","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"moein1119_6","server":"sgovh-trojan.bonds.id","port":443,"password":"00293850-67d8-11ed-b4da-1239d0255272","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"moein1118_13","server":"sg6-trojan.bonds.id","port":443,"password":"488eee40-6704-11ed-bc07-1239d0255272","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"moein1118_14","server":"sgovh-trojan.bonds.id","port":443,"password":"0e3d6f60-6704-11ed-8218-1239d0255272","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"moein1117_15","server":"sg-atha.bonds.id","port":443,"password":"abdb11a0-6645-11ed-8e7f-1239d0255272","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"sshocean-1117_trojan","server":"idt2.sshocean.net","port":443,"password":"ae45552d-20cd-4057-b4ce-4a342acc4fc0","udp":true,"skip-cert-verify":true,"sni":"idt2.sshocean.net"}
+  - {"type":"trojan","name":"moein1118_15","server":"sg1-trojan.bonds.id","port":443,"password":"1e720360-6704-11ed-a541-1239d0255272","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"moein1117_16","server":"sg1-trojan.bonds.id","port":443,"password":"d21ae180-6645-11ed-a16c-1239d0255272","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"moein1118_16","server":"sg8-trojan.bonds.id","port":443,"password":"40e9f580-6704-11ed-9750-1239d0255272","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"sshocean-1116_trojan_1","server":"idt2.sshocean.net","port":443,"password":"47cba90e-16af-4897-9db4-9246b4fe8aa3","udp":true,"skip-cert-verify":true,"sni":"idt2.sshocean.net"}
+  - {"type":"trojan","name":"moein1118_17","server":"sg8-trojan.bonds.id","port":443,"password":"40e9f580-6704-11ed-9750-1239d0255272","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"moein1117_17","server":"sg6-trojan.bonds.id","port":443,"password":"2d0dfe80-6645-11ed-875d-1239d0255272","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"moein1117_18","server":"sg6-trojan.bonds.id","port":443,"password":"3c394060-6645-11ed-a322-1239d0255272","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"moein1118_18","server":"sg6-trojan.bonds.id","port":443,"password":"2e5d4c90-6704-11ed-a2cf-1239d0255272","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"sshocean-1116_trojan_2","server":"idt1.sshocean.net","port":443,"password":"5047d26f-837c-4c36-afd4-c44699e810bc","udp":true,"skip-cert-verify":true,"sni":"idt1.sshocean.net"}
+  - {"type":"trojan","name":"moein1116_7","server":"sg1-trojan.bonds.id","port":443,"password":"869d3d40-656d-11ed-b8d0-1239d0255272","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"moein1117_19","server":"sg6-trojan.bonds.id","port":443,"password":"2d0dfe80-6645-11ed-875d-1239d0255272","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"moein1117_20","server":"idtj-ikd.bonds.id","port":443,"password":"6ccaaf60-6645-11ed-8537-1239d0255272","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"moein1116_8","server":"sg6-trojan.bonds.id","port":443,"password":"72a1e900-656d-11ed-a04a-1239d0255272","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"moein1119_7","server":"sg8-trojan.bonds.id","port":443,"password":"e0889a80-67d7-11ed-a263-1239d0255272","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"moein1116_9","server":"sg6-trojan.bonds.id","port":443,"password":"3c5e4780-656d-11ed-92d4-1239d0255272","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"moein1117_21","server":"sg8-trojan.bonds.id","port":443,"password":"0d90f080-6645-11ed-bc5a-1239d0255272","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"moein1116_10","server":"sgovh-trojan.bonds.id","port":443,"password":"16d033f0-656d-11ed-9e05-1239d0255272","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"moein1117_22","server":"idtj-ikd.bonds.id","port":443,"password":"6ccaaf60-6645-11ed-8537-1239d0255272","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"moein1118_19","server":"us-trojan.bonds.id","port":443,"password":"f1f73b30-6703-11ed-bf84-1239d0255272","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"moein1117_23","server":"sg-atha.bonds.id","port":443,"password":"abdb11a0-6645-11ed-8e7f-1239d0255272","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"moein1117_24","server":"sgovh-trojan.bonds.id","port":443,"password":"c5678640-6645-11ed-b880-1239d0255272","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"moein1117_25","server":"sg6-trojan.bonds.id","port":443,"password":"3c394060-6645-11ed-a322-1239d0255272","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"moein1118_20","server":"sgovh-trojan.bonds.id","port":443,"password":"167bffc0-6704-11ed-9b0e-1239d0255272","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"moein1119_8","server":"sg6-trojan.bonds.id","port":443,"password":"c38a4e70-67d7-11ed-a680-1239d0255272","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"moein1119_9","server":"sgovh-trojan.bonds.id","port":443,"password":"b8f85ed0-67d7-11ed-a68e-1239d0255272","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"moein1118_21","server":"sg2-trojan.bonds.id","port":443,"password":"3844a350-6704-11ed-8296-1239d0255272","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"moein1119_10","server":"sg1-trojan.bonds.id","port":443,"password":"f8b403e0-67d7-11ed-99b2-1239d0255272","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"moein1116_11","server":"sg8-trojan.bonds.id","port":443,"password":"a6fb2d40-656d-11ed-bb29-1239d0255272","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"moein1118_22","server":"sgovh-trojan.bonds.id","port":443,"password":"0e3d6f60-6704-11ed-8218-1239d0255272","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"moein1118_23","server":"br1-trojan.bonds.id","port":443,"password":"8eda8500-6704-11ed-b9ae-1239d0255272","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"moein1119_11","server":"sg2-trojan.bonds.id","port":443,"password":"ccbc9660-67d7-11ed-bcd2-1239d0255272","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"moein1119_12","server":"sg6-trojan.bonds.id","port":443,"password":"2e18f810-67d8-11ed-bfbe-1239d0255272","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"moein1119_13","server":"idtj-ikd.bonds.id","port":443,"password":"1879a6d0-67d8-11ed-8dbf-1239d0255272","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"moein1116_12","server":"sg6-trojan.bonds.id","port":443,"password":"3c5e4780-656d-11ed-92d4-1239d0255272","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"moein1117_26","server":"sg2-trojan.bonds.id","port":443,"password":"7c4c1fe0-6645-11ed-a340-1239d0255272","udp":true,"skip-cert-verify":true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - sshocean-1116_trojan_1
-      - sshocean-1117_trojan_1
-      - moein1118_1
+      - moein1119_1
       - moein1117_1
-      - moein1118_2
       - moein1117_2
       - moein1116_1
-      - moein1118_3
       - moein1117_3
-      - moein1117_4
-      - moein1118_4
+      - moein1118_1
+      - moein1118_2
       - moein1116_2
+      - moein1117_4
       - moein1117_5
-      - moein1116_3
-      - moein1118_5
-      - moein1116_4
+      - moein1118_3
       - moein1117_6
-      - sshocean-1117_trojan_2
-      - moein1118_6
+      - moein1118_4
+      - moein1118_5
       - moein1117_7
-      - moein1116_5
-      - moein1116_6
-      - sshocean-1117_trojan_3
-      - moein1118_7
+      - moein1116_3
+      - moein1119_2
+      - moein1118_6
+      - moein1116_4
       - moein1117_8
+      - moein1116_5
+      - moein1119_3
       - moein1117_9
-      - sshocean-1116_trojan_2
-      - moein1117_10
+      - moein1118_7
       - moein1118_8
+      - moein1117_10
       - moein1117_11
-      - moein1118_9
+      - sshocean-1119m_trojan_1
       - moein1117_12
-      - moein1116_7
-      - sshocean-1116_trojan_3
-      - moein1116_8
-      - moein1116_9
-      - moein1116_10
-      - moein1118_10
-      - sshocean-1115_trojan_1
       - moein1117_13
-      - sshocean-1116_trojan_4
-      - moein1116_11
-      - moein1117_14
-      - moein1116_12
-      - moein1116_13
-      - moein1117_15
+      - moein1119_4
+      - moein1118_9
+      - sshocean-1119m_trojan_2
+      - moein1119_5
+      - moein1118_10
       - moein1118_11
-      - moein1116_14
-      - sshocean-1115_trojan_2
+      - moein1117_14
       - moein1118_12
-      - moein1116_15
-      - moein1117_16
+      - moein1116_6
+      - moein1119_6
       - moein1118_13
       - moein1118_14
+      - moein1117_15
+      - sshocean-1117_trojan
       - moein1118_15
+      - moein1117_16
       - moein1118_16
-      - sshocean-1115_trojan_3
-      - sshocean-1115_trojan_4
-      - sshocean-1115_trojan_5
-      - sshocean-1115_trojan_6
-      - sshocean-1115_trojan_7
-      - sshocean-1115_trojan_8
-      - sshocean-1115_trojan_9
-      - sshocean-1115_trojan_10
-      - sshocean-1115_trojan_11
-      - sshocean-1115_trojan_12
-      - sshocean-1115_trojan_13
-      - sshocean-1115_trojan_14
-      - sshocean-1116_trojan_5
-      - sshocean-1116_trojan_6
-      - sshocean-1116_trojan_7
-      - sshocean-1116_trojan_8
-      - sshocean-1116_trojan_9
-      - sshocean-1116_trojan_10
-      - sshocean-1116_trojan_11
-      - sshocean-1116_trojan_12
-      - sshocean-1116_trojan_13
-      - sshocean-1116_trojan_14
-      - sshocean-1116_trojan_15
-      - sshocean-1116_trojan_16
-      - sshocean-1116_trojan_17
-      - sshocean-1116_trojan_18
-      - sshocean-1116_trojan_19
-      - sshocean-1116_trojan_20
-      - sshocean-1116_trojan_21
-      - sshocean-1117_trojan_4
-      - sshocean-1117_trojan_5
-      - sshocean-1117_trojan_6
-      - sshocean-1117_trojan_7
-      - sshocean-1117_trojan_8
-      - sshocean-1117_trojan_9
-      - sshocean-1117_trojan_10
-      - sshocean-1117_trojan_11
-      - sshocean-1117_trojan_12
-      - sshocean-1117_trojan_13
-      - sshocean-1117_trojan_14
-      - sshocean-1117_trojan_15
-      - sshocean-1117_trojan_16
-      - sshocean-1117_trojan_17
-      - sshocean-1117_trojan_18
-      - sshocean-1117_trojan_19
-      - moein1116_16
-      - sshocean-1115_trojan_15
-      - sshocean-1116_trojan_22
-      - sshocean-1117_trojan_20
-      - sshocean-1117_trojan_21
+      - sshocean-1116_trojan_1
+      - moein1118_17
+      - moein1117_17
+      - moein1117_18
+      - moein1118_18
+      - sshocean-1116_trojan_2
+      - moein1116_7
+      - moein1117_19
+      - moein1117_20
+      - moein1116_8
+      - moein1119_7
+      - moein1116_9
+      - moein1117_21
+      - moein1116_10
+      - moein1117_22
+      - moein1118_19
+      - moein1117_23
+      - moein1117_24
+      - moein1117_25
+      - moein1118_20
+      - moein1119_8
+      - moein1119_9
+      - moein1118_21
+      - moein1119_10
+      - moein1116_11
+      - moein1118_22
+      - moein1118_23
+      - moein1119_11
+      - moein1119_12
+      - moein1119_13
+      - moein1116_12
+      - moein1117_26
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - sshocean-1116_trojan_1
-      - sshocean-1117_trojan_1
-      - moein1118_1
+      - moein1119_1
       - moein1117_1
-      - moein1118_2
       - moein1117_2
       - moein1116_1
-      - moein1118_3
       - moein1117_3
-      - moein1117_4
-      - moein1118_4
+      - moein1118_1
+      - moein1118_2
       - moein1116_2
+      - moein1117_4
       - moein1117_5
-      - moein1116_3
-      - moein1118_5
-      - moein1116_4
+      - moein1118_3
       - moein1117_6
-      - sshocean-1117_trojan_2
-      - moein1118_6
+      - moein1118_4
+      - moein1118_5
       - moein1117_7
-      - moein1116_5
-      - moein1116_6
-      - sshocean-1117_trojan_3
-      - moein1118_7
+      - moein1116_3
+      - moein1119_2
+      - moein1118_6
+      - moein1116_4
       - moein1117_8
+      - moein1116_5
+      - moein1119_3
       - moein1117_9
-      - sshocean-1116_trojan_2
-      - moein1117_10
+      - moein1118_7
       - moein1118_8
+      - moein1117_10
       - moein1117_11
-      - moein1118_9
+      - sshocean-1119m_trojan_1
       - moein1117_12
-      - moein1116_7
-      - sshocean-1116_trojan_3
-      - moein1116_8
-      - moein1116_9
-      - moein1116_10
-      - moein1118_10
-      - sshocean-1115_trojan_1
       - moein1117_13
-      - sshocean-1116_trojan_4
-      - moein1116_11
-      - moein1117_14
-      - moein1116_12
-      - moein1116_13
-      - moein1117_15
+      - moein1119_4
+      - moein1118_9
+      - sshocean-1119m_trojan_2
+      - moein1119_5
+      - moein1118_10
       - moein1118_11
-      - moein1116_14
-      - sshocean-1115_trojan_2
+      - moein1117_14
       - moein1118_12
-      - moein1116_15
-      - moein1117_16
+      - moein1116_6
+      - moein1119_6
       - moein1118_13
       - moein1118_14
+      - moein1117_15
+      - sshocean-1117_trojan
       - moein1118_15
+      - moein1117_16
       - moein1118_16
-      - sshocean-1115_trojan_3
-      - sshocean-1115_trojan_4
-      - sshocean-1115_trojan_5
-      - sshocean-1115_trojan_6
-      - sshocean-1115_trojan_7
-      - sshocean-1115_trojan_8
-      - sshocean-1115_trojan_9
-      - sshocean-1115_trojan_10
-      - sshocean-1115_trojan_11
-      - sshocean-1115_trojan_12
-      - sshocean-1115_trojan_13
-      - sshocean-1115_trojan_14
-      - sshocean-1116_trojan_5
-      - sshocean-1116_trojan_6
-      - sshocean-1116_trojan_7
-      - sshocean-1116_trojan_8
-      - sshocean-1116_trojan_9
-      - sshocean-1116_trojan_10
-      - sshocean-1116_trojan_11
-      - sshocean-1116_trojan_12
-      - sshocean-1116_trojan_13
-      - sshocean-1116_trojan_14
-      - sshocean-1116_trojan_15
-      - sshocean-1116_trojan_16
-      - sshocean-1116_trojan_17
-      - sshocean-1116_trojan_18
-      - sshocean-1116_trojan_19
-      - sshocean-1116_trojan_20
-      - sshocean-1116_trojan_21
-      - sshocean-1117_trojan_4
-      - sshocean-1117_trojan_5
-      - sshocean-1117_trojan_6
-      - sshocean-1117_trojan_7
-      - sshocean-1117_trojan_8
-      - sshocean-1117_trojan_9
-      - sshocean-1117_trojan_10
-      - sshocean-1117_trojan_11
-      - sshocean-1117_trojan_12
-      - sshocean-1117_trojan_13
-      - sshocean-1117_trojan_14
-      - sshocean-1117_trojan_15
-      - sshocean-1117_trojan_16
-      - sshocean-1117_trojan_17
-      - sshocean-1117_trojan_18
-      - sshocean-1117_trojan_19
-      - moein1116_16
-      - sshocean-1115_trojan_15
-      - sshocean-1116_trojan_22
-      - sshocean-1117_trojan_20
-      - sshocean-1117_trojan_21
+      - sshocean-1116_trojan_1
+      - moein1118_17
+      - moein1117_17
+      - moein1117_18
+      - moein1118_18
+      - sshocean-1116_trojan_2
+      - moein1116_7
+      - moein1117_19
+      - moein1117_20
+      - moein1116_8
+      - moein1119_7
+      - moein1116_9
+      - moein1117_21
+      - moein1116_10
+      - moein1117_22
+      - moein1118_19
+      - moein1117_23
+      - moein1117_24
+      - moein1117_25
+      - moein1118_20
+      - moein1119_8
+      - moein1119_9
+      - moein1118_21
+      - moein1119_10
+      - moein1116_11
+      - moein1118_22
+      - moein1118_23
+      - moein1119_11
+      - moein1119_12
+      - moein1119_13
+      - moein1116_12
+      - moein1117_26
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - sshocean-1116_trojan_1
-      - sshocean-1117_trojan_1
-      - moein1118_1
+      - moein1119_1
       - moein1117_1
-      - moein1118_2
       - moein1117_2
       - moein1116_1
-      - moein1118_3
       - moein1117_3
-      - moein1117_4
-      - moein1118_4
+      - moein1118_1
+      - moein1118_2
       - moein1116_2
+      - moein1117_4
       - moein1117_5
-      - moein1116_3
-      - moein1118_5
-      - moein1116_4
+      - moein1118_3
       - moein1117_6
-      - sshocean-1117_trojan_2
-      - moein1118_6
+      - moein1118_4
+      - moein1118_5
       - moein1117_7
-      - moein1116_5
-      - moein1116_6
-      - sshocean-1117_trojan_3
-      - moein1118_7
+      - moein1116_3
+      - moein1119_2
+      - moein1118_6
+      - moein1116_4
       - moein1117_8
+      - moein1116_5
+      - moein1119_3
       - moein1117_9
-      - sshocean-1116_trojan_2
-      - moein1117_10
+      - moein1118_7
       - moein1118_8
+      - moein1117_10
       - moein1117_11
-      - moein1118_9
+      - sshocean-1119m_trojan_1
       - moein1117_12
-      - moein1116_7
-      - sshocean-1116_trojan_3
-      - moein1116_8
-      - moein1116_9
-      - moein1116_10
-      - moein1118_10
-      - sshocean-1115_trojan_1
       - moein1117_13
-      - sshocean-1116_trojan_4
-      - moein1116_11
-      - moein1117_14
-      - moein1116_12
-      - moein1116_13
-      - moein1117_15
+      - moein1119_4
+      - moein1118_9
+      - sshocean-1119m_trojan_2
+      - moein1119_5
+      - moein1118_10
       - moein1118_11
-      - moein1116_14
-      - sshocean-1115_trojan_2
+      - moein1117_14
       - moein1118_12
-      - moein1116_15
-      - moein1117_16
+      - moein1116_6
+      - moein1119_6
       - moein1118_13
       - moein1118_14
+      - moein1117_15
+      - sshocean-1117_trojan
       - moein1118_15
+      - moein1117_16
       - moein1118_16
-      - sshocean-1115_trojan_3
-      - sshocean-1115_trojan_4
-      - sshocean-1115_trojan_5
-      - sshocean-1115_trojan_6
-      - sshocean-1115_trojan_7
-      - sshocean-1115_trojan_8
-      - sshocean-1115_trojan_9
-      - sshocean-1115_trojan_10
-      - sshocean-1115_trojan_11
-      - sshocean-1115_trojan_12
-      - sshocean-1115_trojan_13
-      - sshocean-1115_trojan_14
-      - sshocean-1116_trojan_5
-      - sshocean-1116_trojan_6
-      - sshocean-1116_trojan_7
-      - sshocean-1116_trojan_8
-      - sshocean-1116_trojan_9
-      - sshocean-1116_trojan_10
-      - sshocean-1116_trojan_11
-      - sshocean-1116_trojan_12
-      - sshocean-1116_trojan_13
-      - sshocean-1116_trojan_14
-      - sshocean-1116_trojan_15
-      - sshocean-1116_trojan_16
-      - sshocean-1116_trojan_17
-      - sshocean-1116_trojan_18
-      - sshocean-1116_trojan_19
-      - sshocean-1116_trojan_20
-      - sshocean-1116_trojan_21
-      - sshocean-1117_trojan_4
-      - sshocean-1117_trojan_5
-      - sshocean-1117_trojan_6
-      - sshocean-1117_trojan_7
-      - sshocean-1117_trojan_8
-      - sshocean-1117_trojan_9
-      - sshocean-1117_trojan_10
-      - sshocean-1117_trojan_11
-      - sshocean-1117_trojan_12
-      - sshocean-1117_trojan_13
-      - sshocean-1117_trojan_14
-      - sshocean-1117_trojan_15
-      - sshocean-1117_trojan_16
-      - sshocean-1117_trojan_17
-      - sshocean-1117_trojan_18
-      - sshocean-1117_trojan_19
-      - moein1116_16
-      - sshocean-1115_trojan_15
-      - sshocean-1116_trojan_22
-      - sshocean-1117_trojan_20
-      - sshocean-1117_trojan_21
+      - sshocean-1116_trojan_1
+      - moein1118_17
+      - moein1117_17
+      - moein1117_18
+      - moein1118_18
+      - sshocean-1116_trojan_2
+      - moein1116_7
+      - moein1117_19
+      - moein1117_20
+      - moein1116_8
+      - moein1119_7
+      - moein1116_9
+      - moein1117_21
+      - moein1116_10
+      - moein1117_22
+      - moein1118_19
+      - moein1117_23
+      - moein1117_24
+      - moein1117_25
+      - moein1118_20
+      - moein1119_8
+      - moein1119_9
+      - moein1118_21
+      - moein1119_10
+      - moein1116_11
+      - moein1118_22
+      - moein1118_23
+      - moein1119_11
+      - moein1119_12
+      - moein1119_13
+      - moein1116_12
+      - moein1117_26
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - sshocean-1116_trojan_1
-      - sshocean-1117_trojan_1
-      - moein1118_1
+      - moein1119_1
       - moein1117_1
-      - moein1118_2
       - moein1117_2
       - moein1116_1
-      - moein1118_3
       - moein1117_3
-      - moein1117_4
-      - moein1118_4
+      - moein1118_1
+      - moein1118_2
       - moein1116_2
+      - moein1117_4
       - moein1117_5
-      - moein1116_3
-      - moein1118_5
-      - moein1116_4
+      - moein1118_3
       - moein1117_6
-      - sshocean-1117_trojan_2
-      - moein1118_6
+      - moein1118_4
+      - moein1118_5
       - moein1117_7
-      - moein1116_5
-      - moein1116_6
-      - sshocean-1117_trojan_3
-      - moein1118_7
+      - moein1116_3
+      - moein1119_2
+      - moein1118_6
+      - moein1116_4
       - moein1117_8
+      - moein1116_5
+      - moein1119_3
       - moein1117_9
-      - sshocean-1116_trojan_2
-      - moein1117_10
+      - moein1118_7
       - moein1118_8
+      - moein1117_10
       - moein1117_11
-      - moein1118_9
+      - sshocean-1119m_trojan_1
       - moein1117_12
-      - moein1116_7
-      - sshocean-1116_trojan_3
-      - moein1116_8
-      - moein1116_9
-      - moein1116_10
-      - moein1118_10
-      - sshocean-1115_trojan_1
       - moein1117_13
-      - sshocean-1116_trojan_4
-      - moein1116_11
-      - moein1117_14
-      - moein1116_12
-      - moein1116_13
-      - moein1117_15
+      - moein1119_4
+      - moein1118_9
+      - sshocean-1119m_trojan_2
+      - moein1119_5
+      - moein1118_10
       - moein1118_11
-      - moein1116_14
-      - sshocean-1115_trojan_2
+      - moein1117_14
       - moein1118_12
-      - moein1116_15
-      - moein1117_16
+      - moein1116_6
+      - moein1119_6
       - moein1118_13
       - moein1118_14
+      - moein1117_15
+      - sshocean-1117_trojan
       - moein1118_15
+      - moein1117_16
       - moein1118_16
-      - sshocean-1115_trojan_3
-      - sshocean-1115_trojan_4
-      - sshocean-1115_trojan_5
-      - sshocean-1115_trojan_6
-      - sshocean-1115_trojan_7
-      - sshocean-1115_trojan_8
-      - sshocean-1115_trojan_9
-      - sshocean-1115_trojan_10
-      - sshocean-1115_trojan_11
-      - sshocean-1115_trojan_12
-      - sshocean-1115_trojan_13
-      - sshocean-1115_trojan_14
-      - sshocean-1116_trojan_5
-      - sshocean-1116_trojan_6
-      - sshocean-1116_trojan_7
-      - sshocean-1116_trojan_8
-      - sshocean-1116_trojan_9
-      - sshocean-1116_trojan_10
-      - sshocean-1116_trojan_11
-      - sshocean-1116_trojan_12
-      - sshocean-1116_trojan_13
-      - sshocean-1116_trojan_14
-      - sshocean-1116_trojan_15
-      - sshocean-1116_trojan_16
-      - sshocean-1116_trojan_17
-      - sshocean-1116_trojan_18
-      - sshocean-1116_trojan_19
-      - sshocean-1116_trojan_20
-      - sshocean-1116_trojan_21
-      - sshocean-1117_trojan_4
-      - sshocean-1117_trojan_5
-      - sshocean-1117_trojan_6
-      - sshocean-1117_trojan_7
-      - sshocean-1117_trojan_8
-      - sshocean-1117_trojan_9
-      - sshocean-1117_trojan_10
-      - sshocean-1117_trojan_11
-      - sshocean-1117_trojan_12
-      - sshocean-1117_trojan_13
-      - sshocean-1117_trojan_14
-      - sshocean-1117_trojan_15
-      - sshocean-1117_trojan_16
-      - sshocean-1117_trojan_17
-      - sshocean-1117_trojan_18
-      - sshocean-1117_trojan_19
-      - moein1116_16
-      - sshocean-1115_trojan_15
-      - sshocean-1116_trojan_22
-      - sshocean-1117_trojan_20
-      - sshocean-1117_trojan_21
+      - sshocean-1116_trojan_1
+      - moein1118_17
+      - moein1117_17
+      - moein1117_18
+      - moein1118_18
+      - sshocean-1116_trojan_2
+      - moein1116_7
+      - moein1117_19
+      - moein1117_20
+      - moein1116_8
+      - moein1119_7
+      - moein1116_9
+      - moein1117_21
+      - moein1116_10
+      - moein1117_22
+      - moein1118_19
+      - moein1117_23
+      - moein1117_24
+      - moein1117_25
+      - moein1118_20
+      - moein1119_8
+      - moein1119_9
+      - moein1118_21
+      - moein1119_10
+      - moein1116_11
+      - moein1118_22
+      - moein1118_23
+      - moein1119_11
+      - moein1119_12
+      - moein1119_13
+      - moein1116_12
+      - moein1117_26
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - sshocean-1116_trojan_1
-      - sshocean-1117_trojan_1
-      - moein1118_1
+      - moein1119_1
       - moein1117_1
-      - moein1118_2
       - moein1117_2
       - moein1116_1
-      - moein1118_3
       - moein1117_3
-      - moein1117_4
-      - moein1118_4
+      - moein1118_1
+      - moein1118_2
       - moein1116_2
+      - moein1117_4
       - moein1117_5
-      - moein1116_3
-      - moein1118_5
-      - moein1116_4
+      - moein1118_3
       - moein1117_6
-      - sshocean-1117_trojan_2
-      - moein1118_6
+      - moein1118_4
+      - moein1118_5
       - moein1117_7
-      - moein1116_5
-      - moein1116_6
-      - sshocean-1117_trojan_3
-      - moein1118_7
+      - moein1116_3
+      - moein1119_2
+      - moein1118_6
+      - moein1116_4
       - moein1117_8
+      - moein1116_5
+      - moein1119_3
       - moein1117_9
-      - sshocean-1116_trojan_2
-      - moein1117_10
+      - moein1118_7
       - moein1118_8
+      - moein1117_10
       - moein1117_11
-      - moein1118_9
+      - sshocean-1119m_trojan_1
       - moein1117_12
-      - moein1116_7
-      - sshocean-1116_trojan_3
-      - moein1116_8
-      - moein1116_9
-      - moein1116_10
-      - moein1118_10
-      - sshocean-1115_trojan_1
       - moein1117_13
-      - sshocean-1116_trojan_4
-      - moein1116_11
-      - moein1117_14
-      - moein1116_12
-      - moein1116_13
-      - moein1117_15
+      - moein1119_4
+      - moein1118_9
+      - sshocean-1119m_trojan_2
+      - moein1119_5
+      - moein1118_10
       - moein1118_11
-      - moein1116_14
-      - sshocean-1115_trojan_2
+      - moein1117_14
       - moein1118_12
-      - moein1116_15
-      - moein1117_16
+      - moein1116_6
+      - moein1119_6
       - moein1118_13
       - moein1118_14
+      - moein1117_15
+      - sshocean-1117_trojan
       - moein1118_15
+      - moein1117_16
       - moein1118_16
-      - sshocean-1115_trojan_3
-      - sshocean-1115_trojan_4
-      - sshocean-1115_trojan_5
-      - sshocean-1115_trojan_6
-      - sshocean-1115_trojan_7
-      - sshocean-1115_trojan_8
-      - sshocean-1115_trojan_9
-      - sshocean-1115_trojan_10
-      - sshocean-1115_trojan_11
-      - sshocean-1115_trojan_12
-      - sshocean-1115_trojan_13
-      - sshocean-1115_trojan_14
-      - sshocean-1116_trojan_5
-      - sshocean-1116_trojan_6
-      - sshocean-1116_trojan_7
-      - sshocean-1116_trojan_8
-      - sshocean-1116_trojan_9
-      - sshocean-1116_trojan_10
-      - sshocean-1116_trojan_11
-      - sshocean-1116_trojan_12
-      - sshocean-1116_trojan_13
-      - sshocean-1116_trojan_14
-      - sshocean-1116_trojan_15
-      - sshocean-1116_trojan_16
-      - sshocean-1116_trojan_17
-      - sshocean-1116_trojan_18
-      - sshocean-1116_trojan_19
-      - sshocean-1116_trojan_20
-      - sshocean-1116_trojan_21
-      - sshocean-1117_trojan_4
-      - sshocean-1117_trojan_5
-      - sshocean-1117_trojan_6
-      - sshocean-1117_trojan_7
-      - sshocean-1117_trojan_8
-      - sshocean-1117_trojan_9
-      - sshocean-1117_trojan_10
-      - sshocean-1117_trojan_11
-      - sshocean-1117_trojan_12
-      - sshocean-1117_trojan_13
-      - sshocean-1117_trojan_14
-      - sshocean-1117_trojan_15
-      - sshocean-1117_trojan_16
-      - sshocean-1117_trojan_17
-      - sshocean-1117_trojan_18
-      - sshocean-1117_trojan_19
-      - moein1116_16
-      - sshocean-1115_trojan_15
-      - sshocean-1116_trojan_22
-      - sshocean-1117_trojan_20
-      - sshocean-1117_trojan_21
+      - sshocean-1116_trojan_1
+      - moein1118_17
+      - moein1117_17
+      - moein1117_18
+      - moein1118_18
+      - sshocean-1116_trojan_2
+      - moein1116_7
+      - moein1117_19
+      - moein1117_20
+      - moein1116_8
+      - moein1119_7
+      - moein1116_9
+      - moein1117_21
+      - moein1116_10
+      - moein1117_22
+      - moein1118_19
+      - moein1117_23
+      - moein1117_24
+      - moein1117_25
+      - moein1118_20
+      - moein1119_8
+      - moein1119_9
+      - moein1118_21
+      - moein1119_10
+      - moein1116_11
+      - moein1118_22
+      - moein1118_23
+      - moein1119_11
+      - moein1119_12
+      - moein1119_13
+      - moein1116_12
+      - moein1117_26
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - sshocean-1116_trojan_1
-      - sshocean-1117_trojan_1
-      - moein1118_1
+      - moein1119_1
       - moein1117_1
-      - moein1118_2
       - moein1117_2
       - moein1116_1
-      - moein1118_3
       - moein1117_3
-      - moein1117_4
-      - moein1118_4
+      - moein1118_1
+      - moein1118_2
       - moein1116_2
+      - moein1117_4
       - moein1117_5
-      - moein1116_3
-      - moein1118_5
-      - moein1116_4
+      - moein1118_3
       - moein1117_6
-      - sshocean-1117_trojan_2
-      - moein1118_6
+      - moein1118_4
+      - moein1118_5
       - moein1117_7
-      - moein1116_5
-      - moein1116_6
-      - sshocean-1117_trojan_3
-      - moein1118_7
+      - moein1116_3
+      - moein1119_2
+      - moein1118_6
+      - moein1116_4
       - moein1117_8
+      - moein1116_5
+      - moein1119_3
       - moein1117_9
-      - sshocean-1116_trojan_2
-      - moein1117_10
+      - moein1118_7
       - moein1118_8
+      - moein1117_10
       - moein1117_11
-      - moein1118_9
+      - sshocean-1119m_trojan_1
       - moein1117_12
-      - moein1116_7
-      - sshocean-1116_trojan_3
-      - moein1116_8
-      - moein1116_9
-      - moein1116_10
-      - moein1118_10
-      - sshocean-1115_trojan_1
       - moein1117_13
-      - sshocean-1116_trojan_4
-      - moein1116_11
-      - moein1117_14
-      - moein1116_12
-      - moein1116_13
-      - moein1117_15
+      - moein1119_4
+      - moein1118_9
+      - sshocean-1119m_trojan_2
+      - moein1119_5
+      - moein1118_10
       - moein1118_11
-      - moein1116_14
-      - sshocean-1115_trojan_2
+      - moein1117_14
       - moein1118_12
-      - moein1116_15
-      - moein1117_16
+      - moein1116_6
+      - moein1119_6
       - moein1118_13
       - moein1118_14
+      - moein1117_15
+      - sshocean-1117_trojan
       - moein1118_15
+      - moein1117_16
       - moein1118_16
-      - sshocean-1115_trojan_3
-      - sshocean-1115_trojan_4
-      - sshocean-1115_trojan_5
-      - sshocean-1115_trojan_6
-      - sshocean-1115_trojan_7
-      - sshocean-1115_trojan_8
-      - sshocean-1115_trojan_9
-      - sshocean-1115_trojan_10
-      - sshocean-1115_trojan_11
-      - sshocean-1115_trojan_12
-      - sshocean-1115_trojan_13
-      - sshocean-1115_trojan_14
-      - sshocean-1116_trojan_5
-      - sshocean-1116_trojan_6
-      - sshocean-1116_trojan_7
-      - sshocean-1116_trojan_8
-      - sshocean-1116_trojan_9
-      - sshocean-1116_trojan_10
-      - sshocean-1116_trojan_11
-      - sshocean-1116_trojan_12
-      - sshocean-1116_trojan_13
-      - sshocean-1116_trojan_14
-      - sshocean-1116_trojan_15
-      - sshocean-1116_trojan_16
-      - sshocean-1116_trojan_17
-      - sshocean-1116_trojan_18
-      - sshocean-1116_trojan_19
-      - sshocean-1116_trojan_20
-      - sshocean-1116_trojan_21
-      - sshocean-1117_trojan_4
-      - sshocean-1117_trojan_5
-      - sshocean-1117_trojan_6
-      - sshocean-1117_trojan_7
-      - sshocean-1117_trojan_8
-      - sshocean-1117_trojan_9
-      - sshocean-1117_trojan_10
-      - sshocean-1117_trojan_11
-      - sshocean-1117_trojan_12
-      - sshocean-1117_trojan_13
-      - sshocean-1117_trojan_14
-      - sshocean-1117_trojan_15
-      - sshocean-1117_trojan_16
-      - sshocean-1117_trojan_17
-      - sshocean-1117_trojan_18
-      - sshocean-1117_trojan_19
-      - moein1116_16
-      - sshocean-1115_trojan_15
-      - sshocean-1116_trojan_22
-      - sshocean-1117_trojan_20
-      - sshocean-1117_trojan_21
+      - sshocean-1116_trojan_1
+      - moein1118_17
+      - moein1117_17
+      - moein1117_18
+      - moein1118_18
+      - sshocean-1116_trojan_2
+      - moein1116_7
+      - moein1117_19
+      - moein1117_20
+      - moein1116_8
+      - moein1119_7
+      - moein1116_9
+      - moein1117_21
+      - moein1116_10
+      - moein1117_22
+      - moein1118_19
+      - moein1117_23
+      - moein1117_24
+      - moein1117_25
+      - moein1118_20
+      - moein1119_8
+      - moein1119_9
+      - moein1118_21
+      - moein1119_10
+      - moein1116_11
+      - moein1118_22
+      - moein1118_23
+      - moein1119_11
+      - moein1119_12
+      - moein1119_13
+      - moein1116_12
+      - moein1117_26
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -810,112 +621,85 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - sshocean-1116_trojan_1
-      - sshocean-1117_trojan_1
-      - moein1118_1
+      - moein1119_1
       - moein1117_1
-      - moein1118_2
       - moein1117_2
       - moein1116_1
-      - moein1118_3
       - moein1117_3
-      - moein1117_4
-      - moein1118_4
+      - moein1118_1
+      - moein1118_2
       - moein1116_2
+      - moein1117_4
       - moein1117_5
-      - moein1116_3
-      - moein1118_5
-      - moein1116_4
+      - moein1118_3
       - moein1117_6
-      - sshocean-1117_trojan_2
-      - moein1118_6
+      - moein1118_4
+      - moein1118_5
       - moein1117_7
-      - moein1116_5
-      - moein1116_6
-      - sshocean-1117_trojan_3
-      - moein1118_7
+      - moein1116_3
+      - moein1119_2
+      - moein1118_6
+      - moein1116_4
       - moein1117_8
+      - moein1116_5
+      - moein1119_3
       - moein1117_9
-      - sshocean-1116_trojan_2
-      - moein1117_10
+      - moein1118_7
       - moein1118_8
+      - moein1117_10
       - moein1117_11
-      - moein1118_9
+      - sshocean-1119m_trojan_1
       - moein1117_12
-      - moein1116_7
-      - sshocean-1116_trojan_3
-      - moein1116_8
-      - moein1116_9
-      - moein1116_10
-      - moein1118_10
-      - sshocean-1115_trojan_1
       - moein1117_13
-      - sshocean-1116_trojan_4
-      - moein1116_11
-      - moein1117_14
-      - moein1116_12
-      - moein1116_13
-      - moein1117_15
+      - moein1119_4
+      - moein1118_9
+      - sshocean-1119m_trojan_2
+      - moein1119_5
+      - moein1118_10
       - moein1118_11
-      - moein1116_14
-      - sshocean-1115_trojan_2
+      - moein1117_14
       - moein1118_12
-      - moein1116_15
-      - moein1117_16
+      - moein1116_6
+      - moein1119_6
       - moein1118_13
       - moein1118_14
+      - moein1117_15
+      - sshocean-1117_trojan
       - moein1118_15
+      - moein1117_16
       - moein1118_16
-      - sshocean-1115_trojan_3
-      - sshocean-1115_trojan_4
-      - sshocean-1115_trojan_5
-      - sshocean-1115_trojan_6
-      - sshocean-1115_trojan_7
-      - sshocean-1115_trojan_8
-      - sshocean-1115_trojan_9
-      - sshocean-1115_trojan_10
-      - sshocean-1115_trojan_11
-      - sshocean-1115_trojan_12
-      - sshocean-1115_trojan_13
-      - sshocean-1115_trojan_14
-      - sshocean-1116_trojan_5
-      - sshocean-1116_trojan_6
-      - sshocean-1116_trojan_7
-      - sshocean-1116_trojan_8
-      - sshocean-1116_trojan_9
-      - sshocean-1116_trojan_10
-      - sshocean-1116_trojan_11
-      - sshocean-1116_trojan_12
-      - sshocean-1116_trojan_13
-      - sshocean-1116_trojan_14
-      - sshocean-1116_trojan_15
-      - sshocean-1116_trojan_16
-      - sshocean-1116_trojan_17
-      - sshocean-1116_trojan_18
-      - sshocean-1116_trojan_19
-      - sshocean-1116_trojan_20
-      - sshocean-1116_trojan_21
-      - sshocean-1117_trojan_4
-      - sshocean-1117_trojan_5
-      - sshocean-1117_trojan_6
-      - sshocean-1117_trojan_7
-      - sshocean-1117_trojan_8
-      - sshocean-1117_trojan_9
-      - sshocean-1117_trojan_10
-      - sshocean-1117_trojan_11
-      - sshocean-1117_trojan_12
-      - sshocean-1117_trojan_13
-      - sshocean-1117_trojan_14
-      - sshocean-1117_trojan_15
-      - sshocean-1117_trojan_16
-      - sshocean-1117_trojan_17
-      - sshocean-1117_trojan_18
-      - sshocean-1117_trojan_19
-      - moein1116_16
-      - sshocean-1115_trojan_15
-      - sshocean-1116_trojan_22
-      - sshocean-1117_trojan_20
-      - sshocean-1117_trojan_21
+      - sshocean-1116_trojan_1
+      - moein1118_17
+      - moein1117_17
+      - moein1117_18
+      - moein1118_18
+      - sshocean-1116_trojan_2
+      - moein1116_7
+      - moein1117_19
+      - moein1117_20
+      - moein1116_8
+      - moein1119_7
+      - moein1116_9
+      - moein1117_21
+      - moein1116_10
+      - moein1117_22
+      - moein1118_19
+      - moein1117_23
+      - moein1117_24
+      - moein1117_25
+      - moein1118_20
+      - moein1119_8
+      - moein1119_9
+      - moein1118_21
+      - moein1119_10
+      - moein1116_11
+      - moein1118_22
+      - moein1118_23
+      - moein1119_11
+      - moein1119_12
+      - moein1119_13
+      - moein1116_12
+      - moein1117_26
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
