@@ -1,3 +1,13 @@
+vless://9b2958e0-8f50-45eb-bff2-f57b063c081d@fr-v.sshmax.xyz:443?path=%2Fvless&security=tls&encryption=none&sni=fr-v.sshmax.xyz&type=ws#sshmax-1121
+vless://9b2958e0-8f50-45eb-bff2-f57b063c081d@fr-v.sshmax.xyz:80?path=%2Fvless&encryption=none&sni=fr-v.sshmax.xyz&type=ws#sshmax-1121
+vless://c995aa85-b87d-495d-8247-cfa091133d87@id-v.sshmax.xyz:443?path=%2Fvless&security=tls&encryption=none&sni=id-v.sshmax.xyz&type=ws#sshmax-1121
+vless://c995aa85-b87d-495d-8247-cfa091133d87@id-v.sshmax.xyz:80?path=%2Fvless&encryption=none&sni=id-v.sshmax.xyz&type=ws#sshmax-1121
+vless://654b65a5-4519-456f-8d59-869f52a81119@sg1-v.sshmax.xyz:443?path=%2Fvless&security=tls&encryption=none&sni=sg1-v.sshmax.xyz&type=ws#sshmax-1121
+vless://654b65a5-4519-456f-8d59-869f52a81119@sg1-v.sshmax.xyz:80?path=%2Fvless&encryption=none&sni=sg1-v.sshmax.xyz&type=ws#sshmax-1121
+vless://ded22a74-d973-4e83-b549-cea792bba8b2@sg-v.sshmax.xyz:443?path=%2Fvless&security=tls&encryption=none&sni=sg-v.sshmax.xyz&type=ws#sshmax-1121
+vless://ded22a74-d973-4e83-b549-cea792bba8b2@sg-v.sshmax.xyz:80?path=%2Fvless&encryption=none&sni=sg-v.sshmax.xyz&type=ws#sshmax-1121
+vless://9dd71233-8c62-4ea4-bbfd-557bf71e1362@us-v.sshmax.xyz:443?path=%2Fvless&security=tls&encryption=none&sni=us-v.sshmax.xyz&type=ws#sshmax-1121
+vless://9dd71233-8c62-4ea4-bbfd-557bf71e1362@us-v.sshmax.xyz:80?path=%2Fvless&encryption=none&sni=us-v.sshmax.xyz&type=ws#sshmax-1121
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpaVGcwT1dJeA==@au-ss.sshmax.xyz:8388#SSHMAX-AU_exp30Nov22
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpNREZsTldJMA==@ca-ss.sshmax.xyz:8388#SSHMAX-CA_exp30Nov22
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpNVFJoWXpVeQ==@fr-ss.sshmax.xyz:8388#SSHMAX-FR_exp30Nov22
