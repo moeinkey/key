@@ -4,7 +4,8 @@ https://raw.githubusercontent.com/freefq/free/master/README.md
 https://raw.githubusercontent.com/vpei/Free-Node-Merge/main/out/clash.yaml
 https://raw.githubusercontent.com/vpei/Free-Node-Merge/main/out/openclash.yaml
 ==============
-
+https://github.com/mahdibland/ShadowsocksAggregator/tree/master/sub
+============
 https://github.com/pojiezhiyuanjun/freev2
 https://github.com/Fukki-Z/nodefree
 https://github.com/mianfeifq/share
