@@ -1,9 +1,9 @@
 #
 #-------------------------------------------------------------#
 #  创建者：https://v2rayse.com
-#  创建时间：2022-11-24 09:50:17
+#  创建时间：2022-11-24 09:53:54
 #  模版：v2rayse默认模版
-#  节点数量：28
+#  节点数量：19
 #-------------------------------------------------------------#
 #
 port: 7890
@@ -13,15 +13,6 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"type":"vless","name":"@VMESSIRAN+سرور+آلمان+۲+آذر_1","server":"178.162.165.203","port":46919,"uuid":"d330b788-4621-432c-d96b-2a1cf343d4ba","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","ws-opts":{"path":"/Bfth56htf"}}
-  - {"type":"vless","name":"@VMESSIRAN+سرور+آلمان+۲+آذر_2","server":"178.162.164.194","port":45362,"uuid":"61b21a18-db22-4cc6-b4dd-8784248c5355","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","ws-opts":{"path":"/sf54fsbV"}}
-  - {"type":"vmess","name":"@VMESSIRANسرورآلمان۲آذر","ws-opts":{"path":"/graphql"},"server":"104.248.80.136","port":"80","uuid":"df756db8-a7de-4ff9-a847-d2632bd021e2","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vless","name":"@VMESSIRAN+سرور+آلمان+۳۰+آبان","server":"178.162.164.140","port":28835,"uuid":"33cd0733-c749-4af1-bea1-c2e58d8b289e","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","ws-opts":{"path":"/fg56Htyr"}}
-  - {"type":"vless","name":"@VMESSIRAN+سرور+آلمان+۲+آذر_3","server":"178.162.164.199","port":28749,"uuid":"f01b9f68-2d6d-49f6-f03d-39d8539030cf","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","ws-opts":{"path":"/D85h464g"}}
-  - {"type":"vmess","name":"@VMESSIRANسرورآلمان۳۰آبان","ws-opts":{"path":"/graphql"},"server":"104.248.80.136","port":"80","uuid":"df756db8-a7de-4ff9-a847-d2632bd021e2","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vless","name":"@VMESSIRAN+سرور+آلمان+۲+آذر_4","server":"178.162.164.196","port":48241,"uuid":"96e199fe-2139-4817-cd0c-6cc2ba6e2617","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","ws-opts":{"path":"/dgrBdtg556dg"}}
-  - {"type":"vless","name":"@VMESSIRAN+سرور+آلمان+۲+آذر_5","server":"178.162.164.140","port":28835,"uuid":"33cd0733-c749-4af1-bea1-c2e58d8b289e","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","ws-opts":{"path":"/fg56Htyr"}}
-  - {"type":"vless","name":"@vmessir","server":"178.162.164.199","port":28749,"uuid":"f01b9f68-2d6d-49f6-f03d-39d8539030cf","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","ws-opts":{"path":"/D85h464g"}}
   - {"type":"trojan","name":"sshocean-1122_trojan_1","server":"aut1.sshocean.net","port":443,"password":"88da7695-4f93-4511-ad35-35b5d4537523","udp":true,"skip-cert-verify":true,"sni":"aut1.sshocean.net"}
   - {"type":"trojan","name":"sshocean-1122_trojan_2","server":"cat1.sshocean.net","port":443,"password":"46684017-52da-4090-bd9d-5813541baa54","udp":true,"skip-cert-verify":true,"sni":"cat1.sshocean.net"}
   - {"type":"trojan","name":"sshocean-1122_trojan_3","server":"idt1.sshocean.net","port":443,"password":"8c77d852-2ff2-4a1d-a1f2-c907133af5e9","udp":true,"skip-cert-verify":true,"sni":"idt1.sshocean.net"}
@@ -47,15 +38,6 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - '@VMESSIRAN+سرور+آلمان+۲+آذر_1'
-      - '@VMESSIRAN+سرور+آلمان+۲+آذر_2'
-      - '@VMESSIRANسرورآلمان۲آذر'
-      - '@VMESSIRAN+سرور+آلمان+۳۰+آبان'
-      - '@VMESSIRAN+سرور+آلمان+۲+آذر_3'
-      - '@VMESSIRANسرورآلمان۳۰آبان'
-      - '@VMESSIRAN+سرور+آلمان+۲+آذر_4'
-      - '@VMESSIRAN+سرور+آلمان+۲+آذر_5'
-      - '@vmessir'
       - sshocean-1122_trojan_1
       - sshocean-1122_trojan_2
       - sshocean-1122_trojan_3
@@ -81,15 +63,6 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - '@VMESSIRAN+سرور+آلمان+۲+آذر_1'
-      - '@VMESSIRAN+سرور+آلمان+۲+آذر_2'
-      - '@VMESSIRANسرورآلمان۲آذر'
-      - '@VMESSIRAN+سرور+آلمان+۳۰+آبان'
-      - '@VMESSIRAN+سرور+آلمان+۲+آذر_3'
-      - '@VMESSIRANسرورآلمان۳۰آبان'
-      - '@VMESSIRAN+سرور+آلمان+۲+آذر_4'
-      - '@VMESSIRAN+سرور+آلمان+۲+آذر_5'
-      - '@vmessir'
       - sshocean-1122_trojan_1
       - sshocean-1122_trojan_2
       - sshocean-1122_trojan_3
@@ -115,15 +88,6 @@ proxy-groups:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - '@VMESSIRAN+سرور+آلمان+۲+آذر_1'
-      - '@VMESSIRAN+سرور+آلمان+۲+آذر_2'
-      - '@VMESSIRANسرورآلمان۲آذر'
-      - '@VMESSIRAN+سرور+آلمان+۳۰+آبان'
-      - '@VMESSIRAN+سرور+آلمان+۲+آذر_3'
-      - '@VMESSIRANسرورآلمان۳۰آبان'
-      - '@VMESSIRAN+سرور+آلمان+۲+آذر_4'
-      - '@VMESSIRAN+سرور+آلمان+۲+آذر_5'
-      - '@vmessir'
       - sshocean-1122_trojan_1
       - sshocean-1122_trojan_2
       - sshocean-1122_trojan_3
@@ -148,15 +112,6 @@ proxy-groups:
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - '@VMESSIRAN+سرور+آلمان+۲+آذر_1'
-      - '@VMESSIRAN+سرور+آلمان+۲+آذر_2'
-      - '@VMESSIRANسرورآلمان۲آذر'
-      - '@VMESSIRAN+سرور+آلمان+۳۰+آبان'
-      - '@VMESSIRAN+سرور+آلمان+۲+آذر_3'
-      - '@VMESSIRANسرورآلمان۳۰آبان'
-      - '@VMESSIRAN+سرور+آلمان+۲+آذر_4'
-      - '@VMESSIRAN+سرور+آلمان+۲+آذر_5'
-      - '@vmessir'
       - sshocean-1122_trojan_1
       - sshocean-1122_trojan_2
       - sshocean-1122_trojan_3
@@ -181,15 +136,6 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - '@VMESSIRAN+سرور+آلمان+۲+آذر_1'
-      - '@VMESSIRAN+سرور+آلمان+۲+آذر_2'
-      - '@VMESSIRANسرورآلمان۲آذر'
-      - '@VMESSIRAN+سرور+آلمان+۳۰+آبان'
-      - '@VMESSIRAN+سرور+آلمان+۲+آذر_3'
-      - '@VMESSIRANسرورآلمان۳۰آبان'
-      - '@VMESSIRAN+سرور+آلمان+۲+آذر_4'
-      - '@VMESSIRAN+سرور+آلمان+۲+آذر_5'
-      - '@vmessir'
       - sshocean-1122_trojan_1
       - sshocean-1122_trojan_2
       - sshocean-1122_trojan_3
@@ -214,15 +160,6 @@ proxy-groups:
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - '@VMESSIRAN+سرور+آلمان+۲+آذر_1'
-      - '@VMESSIRAN+سرور+آلمان+۲+آذر_2'
-      - '@VMESSIRANسرورآلمان۲آذر'
-      - '@VMESSIRAN+سرور+آلمان+۳۰+آبان'
-      - '@VMESSIRAN+سرور+آلمان+۲+آذر_3'
-      - '@VMESSIRANسرورآلمان۳۰آبان'
-      - '@VMESSIRAN+سرور+آلمان+۲+آذر_4'
-      - '@VMESSIRAN+سرور+آلمان+۲+آذر_5'
-      - '@vmessir'
       - sshocean-1122_trojan_1
       - sshocean-1122_trojan_2
       - sshocean-1122_trojan_3
@@ -264,15 +201,6 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - '@VMESSIRAN+سرور+آلمان+۲+آذر_1'
-      - '@VMESSIRAN+سرور+آلمان+۲+آذر_2'
-      - '@VMESSIRANسرورآلمان۲آذر'
-      - '@VMESSIRAN+سرور+آلمان+۳۰+آبان'
-      - '@VMESSIRAN+سرور+آلمان+۲+آذر_3'
-      - '@VMESSIRANسرورآلمان۳۰آبان'
-      - '@VMESSIRAN+سرور+آلمان+۲+آذر_4'
-      - '@VMESSIRAN+سرور+آلمان+۲+آذر_5'
-      - '@vmessir'
       - sshocean-1122_trojan_1
       - sshocean-1122_trojan_2
       - sshocean-1122_trojan_3
