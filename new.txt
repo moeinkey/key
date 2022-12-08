@@ -1,3 +1,8 @@
+trojan://q9870219@181.214.99.54:2035?security=tls&sni=ht.lljllj.buzz&type=tcp&headerType=none#%F0%9F%87%A6%F0%9F%87%AAAE-181.214.99.54-0283
+trojan://ad9ee6b5-4707-478a-ba5c-0fc7a4b0314c@199.19.109.30:50330?security=tls&type=tcp&headerType=none#US%20416%20TJN
+vmess://ew0KICAidiI6ICIyIiwNCiAgInBzIjogIvCfh6fwn4eqQkVfNjgiLA0KICAiYWRkIjogIjU3LjEyOC40NS4xNjEiLA0KICAicG9ydCI6ICI4MCIsDQogICJpZCI6ICIzNWQyNTg5OS1lZDIwLTQ2ZDktOWM3Yy05OWMwZDQxNGQ1ZTQiLA0KICAiYWlkIjogIjAiLA0KICAic2N5IjogImF1dG8iLA0KICAibmV0IjogIndzIiwNCiAgInR5cGUiOiAibm9uZSIsDQogICJob3N0IjogIjU3LjEyOC40NS4xNjEiLA0KICAicGF0aCI6ICIvdXNlciIsDQogICJ0bHMiOiAiIiwNCiAgInNuaSI6ICIiLA0KICAiYWxwbiI6ICIiDQp9
+trojan://cb43b7c2-b744-41c5-bcc2-fd7467b332cf@140.238.205.173:443?security=tls&type=tcp&headerType=none#%F0%9F%87%A6%F0%9F%87%BAAU-140.238.205.173-0252
+trojan://q9870219@181.214.99.54:2035?security=tls&sni=ht.lljllj.buzz&type=tcp&headerType=none#%F0%9F%87%A6%F0%9F%87%AAAE-181.214.99.54-0283
 trojan://7547f866-b1ba-4241-a2ea-3bb56f13ef72@aut1.sshocean.net:443?security=tls&headerType=none&type=tcp&sni=aut1.sshocean.net#sshocean-1208_trojan
 trojan://7a826a8f-d4aa-4996-b85f-e34557e3074f@cat1.sshocean.net:443?security=tls&headerType=none&type=tcp&sni=cat1.sshocean.net#sshocean-1208_trojan
 trojan://854979f8-6fd9-4407-b881-cb1efbf02500@cat2.sshocean.net:443?security=tls&headerType=none&type=tcp&sni=cat2.sshocean.net#sshocean-1208_trojan
