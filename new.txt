@@ -8,3 +8,19 @@ vmess://ewogICJ2IjogIjIiLAogICJwcyI6ICJ2bWVzLXVzLmdvc2VydmVyLnB3LXRscyIsCiAgImFk
 vmess://ewogICJ2IjogIjIiLAogICJwcyI6ICJ2bWVzLWNhLmdvc2VydmVyLnB3LW50bHMiLAogICJhZGQiOiAiMTY1LjIyNy4zMi4yMDUiLAogICJwb3J0IjogIjgwIiwKICAiaWQiOiAiMzY4NThkNjAtYTM5Ny00NjY1LTk5N2QtZTU1YjgxZTYyMzc3IiwKICAiYWlkIjogIjAiLAogICJuZXQiOiAid3MiLAogICJ0eXBlIjogIm5vbmUiLAogICJob3N0IjogInZtZXMtY2EuZ29zZXJ2ZXIucHciLAogICJwYXRoIjogIi93b3JyeWZyZWUtbnRscyIsCiAgInRscyI6ICIiCn0K
 vmess://ewogICJ2IjogIjIiLAogICJwcyI6ICJ2bWVzLWNhLmdvc2VydmVyLnB3LXRscyIsCiAgImFkZCI6ICIxNjUuMjI3LjMyLjIwNSIsCiAgInBvcnQiOiAiNDQzIiwKICAiaWQiOiAiMzY4NThkNjAtYTM5Ny00NjY1LTk5N2QtZTU1YjgxZTYyMzc3IiwKICAiYWlkIjogIjAiLAogICJuZXQiOiAid3MiLAogICJ0eXBlIjogIm5vbmUiLAogICJob3N0IjogInZtZXMtY2EuZ29zZXJ2ZXIucHciLAogICJwYXRoIjogIi93b3JyeWZyZWUiLAogICJ0bHMiOiAidGxzIiwKICAic25pIjogImMiCn0K
 
+trojan://67df842b-7594-4fce-8661-b75d9282c705@ltt1.sshocean.net:443?security=tls&headerType=none&type=tcp&sni=ltt1.sshocean.net#sshocean-1210_trojan
+trojan://2334113d-13e3-41b9-b589-d4f3bbd471ff@aut1.sshocean.net:443?security=tls&headerType=none&type=tcp&sni=aut1.sshocean.net#sshocean-1210_trojan
+trojan://5f459b02-4d8e-4ed7-bc16-e0623f61fcc3@cat1.sshocean.net:443?security=tls&headerType=none&type=tcp&sni=cat1.sshocean.net#sshocean-1210_trojan
+trojan://b9d592af-2692-4316-bd22-0c775b8f1486@cat2.sshocean.net:443?security=tls&headerType=none&type=tcp&sni=cat2.sshocean.net#sshocean-1210_trojan
+trojan://f9a5f336-e105-45b3-98f7-37051dd4fd1c@fit1.sshocean.net:443?security=tls&headerType=none&type=tcp&sni=fit1.sshocean.net#sshocean-1210_trojan
+trojan://cc25c0be-1789-4d0d-ab85-cab5ef2803c4@frt1.sshocean.net:443?security=tls&headerType=none&type=tcp&sni=frt1.sshocean.net#sshocean-1210_trojan
+trojan://a453085e-3880-4e29-a868-64e4ebbf6a24@frt2.sshocean.net:443?security=tls&headerType=none&type=tcp&sni=frt2.sshocean.net#sshocean-1210_trojan
+trojan://14d9878d-7212-40e3-8dfa-33e815068be8@idt3.sshocean.net:443?security=tls&headerType=none&type=tcp&sni=idt3.sshocean.net#sshocean-1210_trojan
+trojan://c5f0e057-7836-4f5a-8844-4b48713516f5@sgt4.sshocean.net:443?security=tls&headerType=none&type=tcp&sni=sgt4.sshocean.net#sshocean-1210_trojan
+trojan://7196537d-3499-4663-ae93-18a31389279c@sgt5.sshocean.net:443?security=tls&headerType=none&type=tcp&sni=sgt5.sshocean.net#sshocean-1210_trojan
+trojan://7b0416a0-0860-4110-b5e2-9ce7b6c2a25e@ukt1.sshocean.net:443?security=tls&headerType=none&type=tcp&sni=ukt1.sshocean.net#sshocean-1210_trojan
+trojan://d17ca20e-92cd-4457-9b8f-3e3d1b21416f@ukt2.sshocean.net:443?security=tls&headerType=none&type=tcp&sni=ukt2.sshocean.net#sshocean-1210_trojan
+trojan://d72cfb44-4a55-4335-8247-ef046c94e778@ukt3.sshocean.net:443?security=tls&headerType=none&type=tcp&sni=ukt3.sshocean.net#sshocean-1210_trojan
+trojan://71b0772e-8686-441e-b4f1-ea2085519c64@ust1.sshocean.net:443?security=tls&headerType=none&type=tcp&sni=ust1.sshocean.net#sshocean-1210m_trojan
+trojan://d3a4fbea-8872-4274-9577-55bba4481e20@ust2.sshocean.net:443?security=tls&headerType=none&type=tcp&sni=ust2.sshocean.net#sshocean-1210_trojan
+trojan://88e24b3a-fb08-4c73-be12-285403f46079@ust3.sshocean.net:443?security=tls&headerType=none&type=tcp&sni=ust3.sshocean.net#sshocean-1210_trojan
