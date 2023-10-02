@@ -1,1 +1,5 @@
+vmess://ew0KICAidiI6ICIyIiwNCiAgInBzIjogInQubWUvQ29uZmlnc0h1YiIsDQogICJhZGQiOiAiNDkuMTMuNjQuMTA4IiwNCiAgInBvcnQiOiAiMzIxOTgiLA0KICAiaWQiOiAiYzg3MDIyYjMtZTdjMS00NzA2LWI0YjAtZmU3ZmM3MTMzN2E1IiwNCiAgImFpZCI6ICIwIiwNCiAgInNjeSI6ICJhdXRvIiwNCiAgIm5ldCI6ICJ0Y3AiLA0KICAidHlwZSI6ICJodHRwIiwNCiAgImhvc3QiOiAic3BlZWR0ZXN0Lm5ldCIsDQogICJwYXRoIjogIi8iLA0KICAidGxzIjogIm5vbmUiLA0KICAic25pIjogIiIsDQogICJhbHBuIjogIiINCn0=
+vless://55468feb-8c27-493d-bb72-de8ea57ba1a6@49.13.57.188:19957?encryption=none&security=none&type=tcp&headerType=http&host=internet.life.com.by#t.me%2FConfigsHub
+vless://92bea7dd-e242-4241-f2b1-f7587d69982f@join-bede1.vmessorg.fun:8880?encryption=none&security=reality&sni=fcm.googleapis.com&fp=chrome&pbk=y4ZufpWIFS-4-hD-g_khWtkipMMu2LW_UWUQ9J0RtBc&sid=40&spx=%2F&type=grpc&serviceName=%40unlimiteddev&mode=multi#t.me%2FConfigsHub
+vless://f221dcdc-6f79-483d-8c9c-862a54e8137d@49.13.64.108:36309?encryption=none&security=none&type=tcp&headerType=http&host=speedtest.net#t.me%2FConfigsHub
 
