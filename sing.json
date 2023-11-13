@@ -76,7 +76,17 @@
       },
       {
         "domain_suffix": [
-          "raw.githubusercontent.com"
+          "www.speedtest.net",
+          "mediafire.com",
+          "join---------to.outline-vpn.cloud",
+          "join-----------------to.outline-vpn.cloud",
+          "1bia-channel.unlimiteddev.xyz",
+          "bia2.outline-vpn.cloud",
+          "855.outline-vpn.cloud",
+          "iran-008-join.outline-vpn.cloud",
+          "542.outline-vpn.cloud",
+          "join---------to.outline-vpn.cloud",
+          "3254.outline-vpn.cloud"
         ],
         "server": "direct-dns",
         "rewrite_ttl": 20
@@ -164,14 +174,40 @@
       "tag": "Internet",
       "outbounds": [
         "Best Latency",
-        "raw.githubusercontent.com"
+        "%40V2ray1_Ng",
+        "%40V2ray1_Ng 2",
+        "%F0%9F%87%B8%F0%9F%87%AC%F0%9F%8C%8F+%40customv2ray+%DA%A9%D8%A7%D9%86%D9%81%DB%8C%DA%AF+%D9%87%D8%A7%DB%8C+%D8%A8%DB%8C%D8%B4%D8%AA%D8%B1+%D8%B9%D8%B6%D9%88+%D8%B4%D9%88",
+        "%F0%9F%87%A7%F0%9F%87%AA%F0%9F%8C%8F+%40customv2ray+%DA%A9%D8%A7%D9%86%D9%81%DB%8C%DA%AF+%D9%87%D8%A7%DB%8C+%D8%A8%DB%8C%D8%B4%D8%AA%D8%B1+%D8%B9%D8%B6%D9%88+%D8%B4%D9%88",
+        "t.me%2FConfigsHub",
+        "%F0%9F%87%BA%F0%9F%87%B8%F0%9F%8C%8F+%40customv2ray+%DA%A9%D8%A7%D9%86%D9%81%DB%8C%DA%AF+%D9%87%D8%A7%DB%8C+%D8%A8%DB%8C%D8%B4%D8%AA%D8%B1+%D8%B9%D8%B6%D9%88+%D8%B4%D9%88",
+        "%F0%9F%87%A9%F0%9F%87%AA+Germany+3",
+        "t.me%2FConfigsHub 2",
+        "%F0%9F%87%AC%F0%9F%87%A7%F0%9F%8C%8F+%40customv2ray+%DA%A9%D8%A7%D9%86%D9%81%DB%8C%DA%AF+%D9%87%D8%A7%DB%8C+%D8%A8%DB%8C%D8%B4%D8%AA%D8%B1+%D8%B9%D8%B6%D9%88+%D8%B4%D9%88",
+        "%F0%9F%87%A9%F0%9F%87%AA+Germany+13",
+        "%F0%9F%87%AC%F0%9F%87%A7%F0%9F%8C%8F+%40customv2ray+%DA%A9%D8%A7%D9%86%D9%81%DB%8C%DA%AF+%D9%87%D8%A7%DB%8C+%D8%A8%DB%8C%D8%B4%D8%AA%D8%B1+%D8%B9%D8%B6%D9%88+%D8%B4%D9%88 2",
+        "t.me%2FConfigsHub 3",
+        "T.me%2FSafeNet_Server+%F0%9F%92%9A%F0%9F%A4%8D%E2%9D%A4",
+        "%F0%9F%87%BA%F0%9F%87%B8%F0%9F%8C%8F+%40customv2ray+%DA%A9%D8%A7%D9%86%D9%81%DB%8C%DA%AF+%D9%87%D8%A7%DB%8C+%D8%A8%DB%8C%D8%B4%D8%AA%D8%B1+%D8%B9%D8%B6%D9%88+%D8%B4%D9%88 2"
       ]
     },
     {
       "type": "urltest",
       "tag": "Best Latency",
       "outbounds": [
-        "raw.githubusercontent.com"
+        "%40V2ray1_Ng",
+        "%40V2ray1_Ng 2",
+        "%F0%9F%87%B8%F0%9F%87%AC%F0%9F%8C%8F+%40customv2ray+%DA%A9%D8%A7%D9%86%D9%81%DB%8C%DA%AF+%D9%87%D8%A7%DB%8C+%D8%A8%DB%8C%D8%B4%D8%AA%D8%B1+%D8%B9%D8%B6%D9%88+%D8%B4%D9%88",
+        "%F0%9F%87%A7%F0%9F%87%AA%F0%9F%8C%8F+%40customv2ray+%DA%A9%D8%A7%D9%86%D9%81%DB%8C%DA%AF+%D9%87%D8%A7%DB%8C+%D8%A8%DB%8C%D8%B4%D8%AA%D8%B1+%D8%B9%D8%B6%D9%88+%D8%B4%D9%88",
+        "t.me%2FConfigsHub",
+        "%F0%9F%87%BA%F0%9F%87%B8%F0%9F%8C%8F+%40customv2ray+%DA%A9%D8%A7%D9%86%D9%81%DB%8C%DA%AF+%D9%87%D8%A7%DB%8C+%D8%A8%DB%8C%D8%B4%D8%AA%D8%B1+%D8%B9%D8%B6%D9%88+%D8%B4%D9%88",
+        "%F0%9F%87%A9%F0%9F%87%AA+Germany+3",
+        "t.me%2FConfigsHub 2",
+        "%F0%9F%87%AC%F0%9F%87%A7%F0%9F%8C%8F+%40customv2ray+%DA%A9%D8%A7%D9%86%D9%81%DB%8C%DA%AF+%D9%87%D8%A7%DB%8C+%D8%A8%DB%8C%D8%B4%D8%AA%D8%B1+%D8%B9%D8%B6%D9%88+%D8%B4%D9%88",
+        "%F0%9F%87%A9%F0%9F%87%AA+Germany+13",
+        "%F0%9F%87%AC%F0%9F%87%A7%F0%9F%8C%8F+%40customv2ray+%DA%A9%D8%A7%D9%86%D9%81%DB%8C%DA%AF+%D9%87%D8%A7%DB%8C+%D8%A8%DB%8C%D8%B4%D8%AA%D8%B1+%D8%B9%D8%B6%D9%88+%D8%B4%D9%88 2",
+        "t.me%2FConfigsHub 3",
+        "T.me%2FSafeNet_Server+%F0%9F%92%9A%F0%9F%A4%8D%E2%9D%A4",
+        "%F0%9F%87%BA%F0%9F%87%B8%F0%9F%8C%8F+%40customv2ray+%DA%A9%D8%A7%D9%86%D9%81%DB%8C%DA%AF+%D9%87%D8%A7%DB%8C+%D8%A8%DB%8C%D8%B4%D8%AA%D8%B1+%D8%B9%D8%B6%D9%88+%D8%B4%D9%88 2"
       ],
       "url": "https://detectportal.firefox.com/success.txt",
       "interval": "1m0s"
@@ -180,19 +216,391 @@
       "type": "selector",
       "tag": "Lock Region ID",
       "outbounds": [
-        "raw.githubusercontent.com"
+        "%40V2ray1_Ng",
+        "%40V2ray1_Ng 2",
+        "%F0%9F%87%B8%F0%9F%87%AC%F0%9F%8C%8F+%40customv2ray+%DA%A9%D8%A7%D9%86%D9%81%DB%8C%DA%AF+%D9%87%D8%A7%DB%8C+%D8%A8%DB%8C%D8%B4%D8%AA%D8%B1+%D8%B9%D8%B6%D9%88+%D8%B4%D9%88",
+        "%F0%9F%87%A7%F0%9F%87%AA%F0%9F%8C%8F+%40customv2ray+%DA%A9%D8%A7%D9%86%D9%81%DB%8C%DA%AF+%D9%87%D8%A7%DB%8C+%D8%A8%DB%8C%D8%B4%D8%AA%D8%B1+%D8%B9%D8%B6%D9%88+%D8%B4%D9%88",
+        "t.me%2FConfigsHub",
+        "%F0%9F%87%BA%F0%9F%87%B8%F0%9F%8C%8F+%40customv2ray+%DA%A9%D8%A7%D9%86%D9%81%DB%8C%DA%AF+%D9%87%D8%A7%DB%8C+%D8%A8%DB%8C%D8%B4%D8%AA%D8%B1+%D8%B9%D8%B6%D9%88+%D8%B4%D9%88",
+        "%F0%9F%87%A9%F0%9F%87%AA+Germany+3",
+        "t.me%2FConfigsHub 2",
+        "%F0%9F%87%AC%F0%9F%87%A7%F0%9F%8C%8F+%40customv2ray+%DA%A9%D8%A7%D9%86%D9%81%DB%8C%DA%AF+%D9%87%D8%A7%DB%8C+%D8%A8%DB%8C%D8%B4%D8%AA%D8%B1+%D8%B9%D8%B6%D9%88+%D8%B4%D9%88",
+        "%F0%9F%87%A9%F0%9F%87%AA+Germany+13",
+        "%F0%9F%87%AC%F0%9F%87%A7%F0%9F%8C%8F+%40customv2ray+%DA%A9%D8%A7%D9%86%D9%81%DB%8C%DA%AF+%D9%87%D8%A7%DB%8C+%D8%A8%DB%8C%D8%B4%D8%AA%D8%B1+%D8%B9%D8%B6%D9%88+%D8%B4%D9%88 2",
+        "t.me%2FConfigsHub 3",
+        "T.me%2FSafeNet_Server+%F0%9F%92%9A%F0%9F%A4%8D%E2%9D%A4",
+        "%F0%9F%87%BA%F0%9F%87%B8%F0%9F%8C%8F+%40customv2ray+%DA%A9%D8%A7%D9%86%D9%81%DB%8C%DA%AF+%D9%87%D8%A7%DB%8C+%D8%A8%DB%8C%D8%B4%D8%AA%D8%B1+%D8%B9%D8%B6%D9%88+%D8%B4%D9%88 2"
       ]
     },
     {
-      "tag": "raw.githubusercontent.com",
-      "type": "http",
-      "server": "raw.githubusercontent.com",
-      "server_port": 0,
-      "username": "",
-      "password": "",
+      "tag": "%40V2ray1_Ng",
+      "type": "vless",
+      "server": "www.speedtest.net",
+      "server_port": 2087,
+      "uuid": "553170d2-f65b-4bda-baee-c7a76ed3e6c7",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 32
+      },
       "tls": {
         "enabled": true,
-        "insecure": true
+        "server_name": "nl1.vlessx.us",
+        "insecure": true,
+        "disable_sni": false
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/?ed=2048",
+        "headers": {
+          "Host": "nl1.vlessx.us"
+        },
+        "max_early_data": 0,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "domain_strategy": "ipv4_only"
+    },
+    {
+      "tag": "%40V2ray1_Ng 2",
+      "type": "vless",
+      "server": "mediafire.com",
+      "server_port": 2052,
+      "uuid": "eb29c920-3b93-4063-adcc-459bee6c9cb5",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 32
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/?ed=2048",
+        "headers": {
+          "Host": "nl9.vlessx.us"
+        },
+        "max_early_data": 0,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "domain_strategy": "ipv4_only"
+    },
+    {
+      "tag": "%F0%9F%87%B8%F0%9F%87%AC%F0%9F%8C%8F+%40customv2ray+%DA%A9%D8%A7%D9%86%D9%81%DB%8C%DA%AF+%D9%87%D8%A7%DB%8C+%D8%A8%DB%8C%D8%B4%D8%AA%D8%B1+%D8%B9%D8%B6%D9%88+%D8%B4%D9%88",
+      "type": "vless",
+      "server": "join---------to.outline-vpn.cloud",
+      "server_port": 8443,
+      "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 32
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "baipiao1.curly-train.pages.dev",
+        "insecure": true,
+        "disable_sni": false
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/?ed=2048",
+        "headers": {
+          "Host": "baipiao1.curly-train.pages.dev"
+        },
+        "max_early_data": 0,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "domain_strategy": "ipv4_only"
+    },
+    {
+      "tag": "%F0%9F%87%A7%F0%9F%87%AA%F0%9F%8C%8F+%40customv2ray+%DA%A9%D8%A7%D9%86%D9%81%DB%8C%DA%AF+%D9%87%D8%A7%DB%8C+%D8%A8%DB%8C%D8%B4%D8%AA%D8%B1+%D8%B9%D8%B6%D9%88+%D8%B4%D9%88",
+      "type": "vless",
+      "server": "join-----------------to.outline-vpn.cloud",
+      "server_port": 443,
+      "uuid": "884f9b2c-f0c5-44dd-a68e-3e39ce93bb39",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 32
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "cf-wkrs-pages-vless-aoy.pages.dev",
+        "insecure": true,
+        "disable_sni": false
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/?ed=2048",
+        "headers": {
+          "Host": "cf-wkrs-pages-vless-aoy.pages.dev"
+        },
+        "max_early_data": 0,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "domain_strategy": "ipv4_only"
+    },
+    {
+      "tag": "t.me%2FConfigsHub",
+      "type": "vless",
+      "server": "1bia-channel.unlimiteddev.xyz",
+      "server_port": 80,
+      "uuid": "400f6ebd-a34d-454f-f7b7-132662ec0aab",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 32
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "bia-to-channel.unlimiteddev.xyz"
+        },
+        "max_early_data": 0,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "domain_strategy": "ipv4_only"
+    },
+    {
+      "tag": "%F0%9F%87%BA%F0%9F%87%B8%F0%9F%8C%8F+%40customv2ray+%DA%A9%D8%A7%D9%86%D9%81%DB%8C%DA%AF+%D9%87%D8%A7%DB%8C+%D8%A8%DB%8C%D8%B4%D8%AA%D8%B1+%D8%B9%D8%B6%D9%88+%D8%B4%D9%88",
+      "type": "vless",
+      "server": "bia2.outline-vpn.cloud",
+      "server_port": 443,
+      "uuid": "884f9b2c-f0c5-44dd-a68e-3e39ce93bb39",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 32
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "cf-wkrs-pages-vless-aoy.pages.dev",
+        "insecure": true,
+        "disable_sni": false
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/?ed=2048",
+        "headers": {
+          "Host": "cf-wkrs-pages-vless-aoy.pages.dev"
+        },
+        "max_early_data": 0,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "domain_strategy": "ipv4_only"
+    },
+    {
+      "tag": "%F0%9F%87%A9%F0%9F%87%AA+Germany+3",
+      "type": "vless",
+      "server": "91.107.183.73",
+      "server_port": 23007,
+      "uuid": "f9b4092a-86e0-469a-85ad-0ef06bd79f3b",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 32
+      },
+      "domain_strategy": "ipv4_only"
+    },
+    {
+      "tag": "t.me%2FConfigsHub 2",
+      "type": "vless",
+      "server": "104.20.185.180",
+      "server_port": 2082,
+      "uuid": "74ee8b58-b56f-4145-b61c-9fbc1952208a",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 32
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/?ed=2048",
+        "headers": {
+          "Host": "sg1.vlessx.us"
+        },
+        "max_early_data": 0,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "domain_strategy": "ipv4_only"
+    },
+    {
+      "tag": "%F0%9F%87%AC%F0%9F%87%A7%F0%9F%8C%8F+%40customv2ray+%DA%A9%D8%A7%D9%86%D9%81%DB%8C%DA%AF+%D9%87%D8%A7%DB%8C+%D8%A8%DB%8C%D8%B4%D8%AA%D8%B1+%D8%B9%D8%B6%D9%88+%D8%B4%D9%88",
+      "type": "vless",
+      "server": "855.outline-vpn.cloud",
+      "server_port": 443,
+      "uuid": "884f9b2c-f0c5-44dd-a68e-3e39ce93bb39",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 32
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "cf-wkrs-pages-vless-aoy.pages.dev",
+        "insecure": true,
+        "disable_sni": false
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/?ed=2048",
+        "headers": {
+          "Host": "cf-wkrs-pages-vless-aoy.pages.dev"
+        },
+        "max_early_data": 0,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "domain_strategy": "ipv4_only"
+    },
+    {
+      "tag": "%F0%9F%87%A9%F0%9F%87%AA+Germany+13",
+      "type": "vless",
+      "server": "91.107.180.163",
+      "server_port": 8443,
+      "uuid": "8dfd1bf6-1efd-4ac6-9361-665713490079",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 32
+      },
+      "domain_strategy": "ipv4_only"
+    },
+    {
+      "tag": "%F0%9F%87%AC%F0%9F%87%A7%F0%9F%8C%8F+%40customv2ray+%DA%A9%D8%A7%D9%86%D9%81%DB%8C%DA%AF+%D9%87%D8%A7%DB%8C+%D8%A8%DB%8C%D8%B4%D8%AA%D8%B1+%D8%B9%D8%B6%D9%88+%D8%B4%D9%88 2",
+      "type": "vless",
+      "server": "iran-008-join.outline-vpn.cloud",
+      "server_port": 2053,
+      "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 32
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "baipiao1.curly-train.pages.dev",
+        "insecure": true,
+        "disable_sni": false
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/?ed=2048",
+        "headers": {
+          "Host": "baipiao1.curly-train.pages.dev"
+        },
+        "max_early_data": 0,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "domain_strategy": "ipv4_only"
+    },
+    {
+      "tag": "t.me%2FConfigsHub 3",
+      "type": "vless",
+      "server": "542.outline-vpn.cloud",
+      "server_port": 443,
+      "uuid": "884f9b2c-f0c5-44dd-a68e-3e39ce93bb39",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 32
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "cf-wkrs-pages-vless-aoy.pages.dev",
+        "insecure": true,
+        "disable_sni": false
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/?ed=2048",
+        "headers": {
+          "Host": "cf-wkrs-pages-vless-aoy.pages.dev"
+        },
+        "max_early_data": 0,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "domain_strategy": "ipv4_only"
+    },
+    {
+      "tag": "T.me%2FSafeNet_Server+%F0%9F%92%9A%F0%9F%A4%8D%E2%9D%A4",
+      "type": "vless",
+      "server": "join---------to.outline-vpn.cloud",
+      "server_port": 2096,
+      "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 32
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "baipiao1.curly-train.pages.dev",
+        "insecure": true,
+        "disable_sni": false
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/?ed=2048",
+        "headers": {
+          "Host": "baipiao1.curly-train.pages.dev"
+        },
+        "max_early_data": 0,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "domain_strategy": "ipv4_only"
+    },
+    {
+      "tag": "%F0%9F%87%BA%F0%9F%87%B8%F0%9F%8C%8F+%40customv2ray+%DA%A9%D8%A7%D9%86%D9%81%DB%8C%DA%AF+%D9%87%D8%A7%DB%8C+%D8%A8%DB%8C%D8%B4%D8%AA%D8%B1+%D8%B9%D8%B6%D9%88+%D8%B4%D9%88 2",
+      "type": "vless",
+      "server": "3254.outline-vpn.cloud",
+      "server_port": 2083,
+      "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 32
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "baipiao1.curly-train.pages.dev",
+        "insecure": true,
+        "disable_sni": false
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/?ed=2048",
+        "headers": {
+          "Host": "baipiao1.curly-train.pages.dev"
+        },
+        "max_early_data": 0,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
       },
       "domain_strategy": "ipv4_only"
     },
