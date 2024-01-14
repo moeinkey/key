@@ -13,3 +13,8 @@ ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTplemVzQlhlc2YzUktCQ3AxdnFLdUl4@beeconf.xyz:80
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpUMXBiN1h4eHJvbHZQU2IwdTJ4U09B@beacomf.xyz:8080#%F0%9F%87%BA%F0%9F%87%B8%20United%20States%20of%20America%20157
 vless://a9281288-3659-4eea-9044-58291062ab6f@172.66.47.74:2087?encryption=none&security=tls&sni=lengwi12.chipkayin.shop&type=grpc#%F0%9F%87%BA%F0%9F%87%B8%20United%20States%20of%20America%20166
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpYbFVGZ29PcURsVnFsWkZEM0pzMFlB@masting.xyz:8080#%F0%9F%87%A9%F0%9F%87%AA%20Germany%203
+trojan://Mahanvpn-insta-mahan_vpn@172.67.210.5:443?security=tls&sni=mahanvip.mahantu.top&alpn=h2&fp=chrome&type=grpc&serviceName=mahanvip.mahantu.top&mode=gun#mci
+vless://d7eb13b9-99d9-4908-9c91-64501af51f98@arvan.star-one.cfd:443?encryption=none&security=tls&fp=chrome&type=ws&path=%2F42751%2F%40forwardv2ray#mci
+trojan://TCXK9QvA00@life.star-one.cfd:443?security=tls&fp=chrome&type=ws&path=%2F50197%2F%40forwardv2ray#mci
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp1MTdUM0J2cFlhYWl1VzJj@series-a2-mec.samanehha.co:443#mci
+
