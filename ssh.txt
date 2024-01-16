@@ -17,4 +17,13 @@ trojan://Mahanvpn-insta-mahan_vpn@172.67.210.5:443?security=tls&sni=mahanvip.mah
 vless://d7eb13b9-99d9-4908-9c91-64501af51f98@arvan.star-one.cfd:443?encryption=none&security=tls&fp=chrome&type=ws&path=%2F42751%2F%40forwardv2ray#mci
 trojan://TCXK9QvA00@life.star-one.cfd:443?security=tls&fp=chrome&type=ws&path=%2F50197%2F%40forwardv2ray#mci
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp1MTdUM0J2cFlhYWl1VzJj@series-a2-mec.samanehha.co:443#mci
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpYbFVGZ29PcURsVnFsWkZEM0pzMFlB@masting.xyz:8080#%F0%9F%87%A9%F0%9F%87%AA%20Germany%2012
+vless://cfb13672-eef1-4df0-95db-211e45857ab6@de.melov2ray.shop:443?encryption=none&security=tls&sni=De.Melov2ray.Shop&alpn=h2%2Chttp%2F1.1&fp=chrome&type=ws&path=%2Fmelov2ray#%F0%9F%87%BA%F0%9F%87%B8%20United%20States%20of%20America%2081
+trojan://Nu5EqwcJ2OCuvKAcSQeGdg@104.21.69.44:443?security=tls&sni=cdn-22.gsmxreality.com&type=grpc&serviceName=443trojan&mode=gun#%F0%9F%87%BA%F0%9F%87%B8%20United%20States%20of%20America%2098
+vless://85a41d55-d0dc-44f6-8d4d-88d5d7248f47@104.21.17.99:2096?encryption=none&security=tls&sni=serv7.azizakaam.info&type=grpc#%F0%9F%87%BA%F0%9F%87%B8%20United%20States%20of%20America%2088
+trojan://28c79056-ccfd-4cc1-93d4-c337cc782e65@89.221.224.94:80?security=tls&sni=is2-t.sshmax.xyz&type=tcp&headerType=none#%F0%9F%87%AE%F0%9F%87%B8%20Iceland%201
+vless://cf15b202-d101-4831-9e0b-1d63e9311328@cdnjs.com:2052?encryption=none&security=none&type=ws&host=p3.abrarvan.xyz&path=%2F#666
+vless://84cdbd0c-e958-4a01-9954-4754bea3ebc7@www.speedtest.net:443?encryption=none&security=tls&sni=hash-delhi-kills-alert.trycloudflare.com&alpn=http%2F1.1&fp=firefox&type=ws&host=hash-delhi-kills-alert.trycloudflare.com&path=%2F#55
+vless://e021a3ea-d1c2-4181-cf91-a0c31138b766@173.245.58.31:2087?encryption=none&security=tls&sni=po.GodOfV2ray.sbs&fp=chrome&type=grpc&serviceName=%40AfV2ray%2C%40AfV2ray%2C%40AfV2ray%2C%40AfV2ray%2C%40AfV2ray%2C%40AfV2ray%2C%40AfV2ray%2C%40AfV2ray%2C%40AfV2ray%2C%40AfV2ray%2C%40AfV2ray%2C%40AfV2ray&mode=gun#t.me%2FConfigsHub
+vless://319a243b-5860-4a9a-af7d-a10d197130ea@ch.hopev2ray.link:80?encryption=none&security=none&type=ws&host=be1-vless.sshmax.xyz&path=%2Fvless#t.me%2FConfigsHub
 
