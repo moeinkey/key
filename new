@@ -3,13 +3,11 @@ warp://p1@188.114.97.170:894?ifp=40-80&ifps=40-100&ifpd=4-8&ifpm=m4#moein1&&deto
 warp://p1@auto?ifpm=m4#moein2&&detour=warp://p2@auto#moein3
 
 
-warp://162.159.195.172:1070/?ifp=5-10#350@Porteqal3
-warp://188.114.96.181:4500/?ifp=5-10#351@Porteqal3
-warp://188.114.96.228:4500/?ifp=5-10#352@Porteqal3
-warp://188.114.96.63:4500/?ifp=5-10#353@Porteqal3
-warp://188.114.97.120:1070/?ifp=5-10#354@Porteqal3
-warp://188.114.99.6:4233/?ifp=5-10#355@Porteqal3
-
-
+warp://162.159.195.172:1070/?ifp=5-10#350@moein5
+warp://188.114.96.181:4500/?ifp=5-10#351@moein6
+warp://188.114.96.228:4500/?ifp=5-10#352@moein7
+warp://188.114.96.63:4500/?ifp=5-10#353@moein8
+warp://188.114.97.120:1070/?ifp=5-10#354@moein9
+warp://188.114.99.6:4233/?ifp=5-10#355@moein10
 
 
