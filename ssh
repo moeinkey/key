@@ -129,5 +129,5 @@ warp://p2@auto?ifp=5-10&ifps=40-100&ifpd=10-20#moein10
 warp://p2@auto?ifp=5-10&ifps=40-100&ifpd=30-50#moein11
 warp://p2@auto?ifp=5-10&ifps=40-100&ifpd=300-500#moein12
 warp://p2@188.114.97.170:894#moein13
-warp://p2@auto#moein14
-warp://p2@ip2#moein15
+warp://p3@auto#moein17
+warp://p3@ip3#moein18
