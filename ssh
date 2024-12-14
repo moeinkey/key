@@ -118,22 +118,9 @@ vless://49d65fc2-8413-4d97-9303-ad34f0bdeef4@zmaoz.faculty.ucdavis.edu:443?encry
 vless://e231f42b-a384-4b50-d1a7-1c5c27c4237a@104.17.234.12:8080?encryption=none&security=none&type=ws&host=join.bede.UNLIMITEDDEV.www.speedtest.net.de.Abrha.co.sabadyt.ir&path=%40UnlimitedDev----%40UnlimitedDev-----%40UnlimitedDev----%40UnlimitedDev----%40UnlimitedDev----%40UnlimitedDev----%40UnlimitedDev----%40UnlimitedDev----%40UnlimitedDev----%40UnlimitedDev----%40UnlimitedDev----%40UnlimitedDev%3Fed%3D8880#%40UnlimitedDev-Link4%60%60
 vless://1cc424e8-66ba-4ede-ab9b-407245e78cba@151.101.3.8:80?encryption=none&security=none&type=ws&host=barkatc1.ir&path=%2FTelegram-ipV2Ray-Telegram-ipV2Ray-Telegram-ipV2Ray-Telegram-ipV2Ray-Telegram-ipV2Ray%3Fed%3D2048#WS-Config%60
 vless://1dc37235-84ae-5772-b0e1-d02d2c039268@151.101.66.219:80?encryption=none&security=none&type=ws&host=PABLOO-MOSTAFA.COM&path=%2F#%40Hope_Net-join-us-on-Telegram
-//profile-title: base64:8J+UpSBXQVJQIPCflKU=
-//profile-update-interval: 24
-//subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
-//support-url: https://t.me/hiddify
-//profile-web-page-url: https://hiddify.com
+
 warp://p1@188.114.97.170:894?ifp=40-80&ifps=40-100&ifpd=4-8&ifpm=m4#moein1&&detour=warp://p2@188.114.97.170:894#moein4
 warp://p1@auto?ifpm=m4#moein2&&detour=warp://p2@auto#moein3
-#warp://p1@ip1?ifp=1-3#moein3&&detour=warp://p2@ip2ifp=1-3#moein5
-#warp://auto?ifp=10-20&ifps=40-100&ifpd=10-20#Warp_10-20_40-100_10-20
-#warp://auto?ifp=10-20&ifps=40-100&ifpd=30-200#Warp_10-20_40-100_30-50
-#warp://auto?ifp=10-20&ifps=40-100&ifpd=300-500#Warp_10-20_40-100_300-500
-#warp://auto?ifp=5-10&ifps=40-100&ifpd=10-20#Warp_5-10_40-100_10-20
-#warp://auto?ifp=5-10&ifps=40-100&ifpd=30-50#Warp_5-10_40-100_30-50
-#warp://auto?ifp=5-10&ifps=40-100&ifpd=300-500#Warp_5-10_40-100_300-500
-
-
 warp://p1@ip1?ifp=1-3#moein3&&detour=warp://p2@ip2ifp=1-3#moei6
 warp://auto?ifp=10-20&ifps=40-100&ifpd=10-20#moein7
 warp://auto?ifp=10-20&ifps=40-100&ifpd=30-200#moein8
